@@ -28,3 +28,12 @@ correo que introduzca en el formulario (con un texto que confirma la recepción 
 (además en copia oculta se incluye la propia dirección de la aplicación para tener un registro de estos mensajes).Para los juegos que involucran
 cartas se ha creado una clase para poder crear objetos de tipo carta (estos objetos tienen atributos que no son usados en los juegos actuales,
 pero serán necesarios para los nuevos juegos que se están desarrollando y que se lanzaran a modo de actualización).
+En cuanto a los kits de desarrollo de Huawei para el desarrollo de esta app se ha hecho uso de los kits de anuncios y de analíticas.
+El kit de analíticas nos ofrecerá la información predeterminada del estado de la aplicación y entre otros su impacto en el mercado y los usuarios.
+El kit de anuncios ofrece la posibilidad de publicar anuncios y monetizar la aplicación es por ello por lo que se han incluido anuncios de tipo 
+banner e intersticial. Los anuncios de tipo intersticial están presentes en los juegos de yo nunca, El juego y autopista y se presentan una vez 
+por partida cuando se da un numero de iteraciones con el juego (en el caso de yo nunca y el juego se lanzan los intersticial a partir de la décima
+iteración con el botón siguiente y en el caso de autopista a partir de la primera iteración del primer botón).
+Por último esta planificado incluir los kits de in-app purchase (a la publicación de la aplicación) para hacer de pago algunos juegos (en formato
+de suscripción mensual) y el kit de Huawei-id para identificar a los usuarios permitiendo crear una BBDD y una comunidad alrededor de la aplicación.
+
