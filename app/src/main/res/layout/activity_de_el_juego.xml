@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDeElJuego"
+    android:background="@drawable/imagen_yo_nunca">
+
+
+    <LinearLayout
+        android:id="@+id/layout_1_el_juego"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintVertical_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/layout_2_el_juego">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_2_el_juego"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintVertical_weight="3"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/layout_1_el_juego"
+        app:layout_constraintBottom_toTopOf="@id/layout_3_el_juego"
+        android:gravity="center"
+        android:background="#f5f5f5">
+
+        <TextView
+            android:id="@+id/textView_el_juego"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/el_juego_texto_text_view"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_3_el_juego"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintVertical_weight="2"
+        app:layout_constraintTop_toBottomOf="@id/layout_2_el_juego"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        >
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_sugerencia_el_juego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="@string/el_juego_boton_sugerencia"
+            android:textColor="#f5f5f5" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_siguiente_el_juego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="@string/el_juego_boton_siguiente"
+            android:textColor="#f5f5f5" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_como_jugar_el_juego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/el_juego_boton_como_jugar"
+            android:background="#000000"
+            android:textColor="#f5f5f5"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

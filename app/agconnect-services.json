@@ -1,0 +1,14 @@
+{
+	"client":{
+		"appType":"1",
+		"cp_id":"5190034000025016550",
+		"product_id":"736430079244715782",
+		"client_id":"503882520501170816",
+		"client_secret":"DF365044C2FA372930638FB5AD9B914A3A27E04575B53AC884F06AE8549574AE",
+		"project_id":"736430079244715782",
+		"app_id":"103351659",
+		"api_key":"CgB6e3x9b13wk5fRxYXzIKxPWhq7BWF6CpF94HMlMOeBxZm/3Q/loW9R4blS+M5tKZ+LhOq/NywDZIn25JSa2258",
+		"package_name":"com.hsd.contest.spain.pingoapp"
+	},
+	"configuration_version":"1.0"
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_vertical"
+    android:background="#000000"
+
+    tools:context=".ActivityDePingo">
+    <LinearLayout
+        android:id="@+id/layoutSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/layoutCarta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutCarta"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/layoutDescripcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutSuperior"
+        app:layout_constraintVertical_weight="8">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imagenCartaDelCardView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+
+            />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutDescripcion"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/layoutBotones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutCarta"
+        app:layout_constraintVertical_weight="1.5"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/textViewPrueba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/pingo_text_view"
+            android:textAlignment="center"
+            android:textColor="#f5f5f5"
+
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutBotones"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutDescripcion"
+        app:layout_constraintVertical_weight="2"
+        android:gravity="center"
+        >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_ayuda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pingo_boton_como_jugar"
+            android:background="#f5f5f5"
+            android:textColor="#000000"
+            android:layout_weight="3"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_siguiente"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pingo_boton_siguiente"
+            android:layout_weight="3"
+            android:background="#f5f5f5"
+            android:textColor="#000000"
+            tools:ignore="MissingConstraints" />
+
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

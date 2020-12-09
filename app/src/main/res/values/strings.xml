@@ -1,0 +1,545 @@
+<resources>
+
+
+    <string name="app_name">Etilico</string>
+    <string name="titulo_yo_nunca">Yo nunca</string>
+    <string name="titulo_pruebas">Pruebas</string>
+    <string name="titulo_ayuda">Ayuda</string>
+    <string name="titulo_carrera">Carrera</string>
+
+    //modos de juego botones main
+
+    <string name="modo_yo_nunca">YO NUNCA</string>
+    <string name="modo_el_juego">EL JUEGO</string>
+    <string name="modo_autopista">AUTOPISTA</string>
+    <string name="modo_pingo">PINGO</string>
+    <string name="modo_ayuda">AYUDA</string>
+
+
+    //PINGO
+
+        //botones
+        <string name="pingo_boton_siguiente">SIGUIENTE</string>
+        <string name="pingo_boton_como_jugar">COMO JUGAR</string>
+        //text view
+        <string name="pingo_text_view">INICIO</string>
+        <string name="pingo_text_view_fin_de_juego">FIN DEL JUEGO</string>
+
+        //texto fin de juego + juego no terminado
+        <string name="pingo_fin_de_juego_texto">Fin del PINGO. ¿Quieres jugar de nuevo?</string>
+        <string name="pingo_fin_de_juego_boton_si">Si</string>
+        <string name="pingo_fin_de_juego_boton_no">No</string>
+        <string name="pingo_fin_de_juego_titulo">FIN DEL JUEGO</string>
+
+        //como jugar texto+boton+titulo
+        <string name="pingo_como_jugar_texto_0">Juego por turnos. Los jugadores deben colocarse formando un circulo. En cada turno, un jugador saca carta (pulsando siguiente), cada carta corresponde a una prueba, se deberá realizar la prueba y pasar el turno al siguiente jugador cuando se haya completado.Las pruebas son:</string>
+        <string name="pingo_como_jugar_texto_1">1-Chupito- El jugador que saca esta carta deberá beber un chupito.</string>
+        <string name="pingo_como_jugar_texto_2">2-Bebes dos tragos- El jugador que saca esta carta deberá beber 2 tragos de su copa.</string>
+        <string name="pingo_como_jugar_texto_3">3-Reparte 3 tragos- el jugador que saca esta carta reparte tres tragos a quien quiera (puede mandar los 3 tragos a un jugador, 2 tragos a uno y 1 trago a otro o 1 trago a tres jugadores distintos).</string>
+        <string name="pingo_como_jugar_texto_4">4-1,2,3,4- El jugador que saca la carta bebe un trago, el siguiente jugador de su derecha 2 tragos, el siguiente 3 tragos y el siguiente 4 tragos.</string>
+        <string name="pingo_como_jugar_texto_5">5-Cascada-El jugador que saca la carta tiene que empezar a beber y los demás tienen que seguir en el orden en el que están sentados hasta el último jugador. Cuando el primer jugador deja de beber, todos los demás tienen que dejar de beber de nuevo siguiendo el orden en que están sentados.</string>
+        <string name="pingo_como_jugar_texto_6">6- Canciones. El jugador que saca esta carta deberá cantar un verso de una canción que elija, el resto de jugadores (por orden) deberán continuar la canción, el que falle o no sepa seguir, pierde y bebe un trago.</string>
+        <string name="pingo_como_jugar_texto_7">7-Marcas/listas. El jugador que saca esta carta deberá elegir entre Marcas o listas de un determinado tema (por ejemplo: marcas de coche, marcas de bebidas alcohólicas, Pokémon, Actores/Actrices...), por orden cada jugador deberá ir diciendo una marca/lista de dicho tema, el jugador que repita o no se sepa ninguna pierde y bebe un trago.</string>
+        <string name="pingo_como_jugar_texto_8">8-Beben todos menos tu- Todos los jugadores deberán beber un trago a excepción del jugador que saco la carta.</string>
+        <string name="pingo_como_jugar_texto_9">9-Bebes del vaso de todos- El jugador que saca esta carta bebe un trago del vaso de todos los jugadores.</string>
+        <string name="pingo_como_jugar_texto_10">10-Bebe el de tu izquierda- Bebe un trago la persona que este a la izquierda del jugador que saco la carta.</string>
+        <string name="pingo_como_jugar_texto_11">11-Bebe el de tu derecha- Bebe un trago la persona que este a la derecha del jugador  que saco la carta.</string>
+        <string name="pingo_como_jugar_texto_12">12- Rellena/Bebe copa central- Hay en total cuatro 12 en la baraja, los 3 primeros deberán rellenar con su bebida una copa situada en el centro, el ultimo 12 deberá beberse la copa con la mezcla de bebidas.</string>
+        <string name="pingo_como_jugar_boton_ok">OK</string>
+        <string name="pingo_como_jugar_titulo">COMO JUGAR PINGO</string>
+        //Pruebas
+        <string name="pingo_prueba_1">BEBE UN CHUPITO</string>
+        <string name="pingo_prueba_2">BEBE DOS TRAGOS</string>
+        <string name="pingo_prueba_3">REPARTE 3 TRAGOS</string>
+        <string name="pingo_prueba_4">1,2,3,4</string>
+        <string name="pingo_prueba_5">CASCADA</string>
+        <string name="pingo_prueba_6">CANCIONES</string>
+        <string name="pingo_prueba_7">MARCAS/LISTAS</string>
+        <string name="pingo_prueba_8">BEBEN TODOS MENOS TU</string>
+        <string name="pingo_prueba_9">BEBES DEL VASO DE TODOS</string>
+        <string name="pingo_prueba_10">BEBE EL DE TU IZQUIERDA</string>
+        <string name="pingo_prueba_11">BEBE EL DE TU DERECHA</string>
+        <string name="pingo_prueba_12">RELLENA/BEBE COPA CENTRAL</string>
+
+    //yo nunca
+        //Modes
+        <string name="yo_nunca_modo_clasico">CLASICO</string>
+        <string name="yo_nunca_modo_erotico">EROTICO</string>
+
+        //botones
+        <string name="yo_nunca_boton_siguiente">SIGUIENTE</string>
+        <string name="yo_nunca_boton_como_jugar">Como jugar</string>
+        <string name="yo_nunca_boton_sugerencia">Sugerencia</string>
+        <string name="yo_nunca_titulo">YO NUNCA...</string>
+
+        //Comojugar
+        <string name="yo_nunca_como_jugar_texto">YO NUNCA. Apareceran afirmaciones en la pantalla,
+                     el jugador debera beber un trago si la afirmacion es verdadera para el.
+                     En el boton SUGERENCIA encontrarás los pasos para enviarnos afirmaciones para incluirlas en el juego</string>
+        <string name="yo_nunca_como_jugar_boton_ok">OK</string>
+        <string name="yo_nunca_como_jugar_titulo">COMO JUGAR YO NUNCA</string>
+
+        //texto fin de juego + juego no terminado
+        <string name="yo_nunca_fin_de_juego_texto">Fin del YO NUNCA. ¿Quieres jugar de nuevo?</string>
+        <string name="yo_nunca_fin_de_juego_boton_si">Si</string>
+        <string name="yo_nunca_fin_de_juego_boton_no">No</string>
+        <string name="yo_nunca_fin_de_juego_titulo">FIN DEL JUEGO</string>
+
+
+        //afirmaciones clasico
+
+        <string name="yo_nunca_clasico_afirmacion_0">Yo nunca he dejado caer mi móvil al WC.</string>
+        <string name="yo_nunca_clasico_afirmacion_1">Yo nunca he vuelto con mi ex.</string>
+        <string name="yo_nunca_clasico_afirmacion_2">Yo nunca me he tirado un pedo y he dicho “que mal huele” para despistar.</string>
+        <string name="yo_nunca_clasico_afirmacion_3">Yo nunca he dicho que me encantaba un regalo y después lo he devuelto.</string>
+        <string name="yo_nunca_clasico_afirmacion_4">Yo nunca he tenido una época vegana/vegetariana y se lo he dicho a todo el mundo.</string>
+        <string name="yo_nunca_clasico_afirmacion_5">Yo nunca he visto una serie solo por ver en bucle el culo del actor.</string>
+        <string name="yo_nunca_clasico_afirmacion_6">Yo nunca he fingido estar en un videoclip cuando salgo de la ducha mientras pongo caras intensas en el espejo.</string>
+        <string name="yo_nunca_clasico_afirmacion_7">Yo nunca he hecho un spoiler de Juego de Tronos.</string>
+        <string name="yo_nunca_clasico_afirmacion_8">Yo nunca he hecho pis en una piscina con miedo por si aparecía el circulo rojo.</string>
+        <string name="yo_nunca_clasico_afirmacion_9">Yo nunca he fingido que me llamaban para escapar de una cita.</string>
+
+        <string name="yo_nunca_clasico_afirmacion_10">Yo nunca he estado más de tres días sin ducharme.</string>
+        <string name="yo_nunca_clasico_afirmacion_11">Yo nunca me he apuntado al gimnasio pero no he ido mas de dos veces.</string>
+        <string name="yo_nunca_clasico_afirmacion_12">Yo nunca he stalkeado el instagram del el/la ex de mi novi@.</string>
+        <string name="yo_nunca_clasico_afirmacion_13">Yo nunca me he inventado algo en una entrevista de trabajo.</string>
+        <string name="yo_nunca_clasico_afirmacion_14">Yo nunca he dicho "de tranquis" para convencer un amigo y salir de fiesta.</string>
+        <string name="yo_nunca_clasico_afirmacion_15">Yo nunca he abierto a la policía por haber hecho un fiestón en casa.</string>
+        <string name="yo_nunca_clasico_afirmacion_16">Yo nunca me he imaginado siendo del sexo opuesto.</string>
+        <string name="yo_nunca_clasico_afirmacion_17">Yo nunca me he pasado mi parada del tren volviendo de fiesta y he acabao en otra ciudad.</string>
+        <string name="yo_nunca_clasico_afirmacion_18">Yo nunca he  perdido un iPhone.</string>
+        <string name="yo_nunca_clasico_afirmacion_19">Yo nunca he llevado unas gafas de cristal solo por posturear.</string>
+
+        <string name="yo_nunca_clasico_afirmacion_20">Yo nunca he pesado la fruta, le he pegado el ticket y luego he metido más.</string>
+        <string name="yo_nunca_clasico_afirmacion_21">Yo nunca mentí en el Yo Nunca.</string>
+        <string name="yo_nunca_clasico_afirmacion_22">Yo nunca he estornudado y me ha salido un moco.</string>
+        <string name="yo_nunca_clasico_afirmacion_23">Yo nunca he preguntado a alguien que no trabajaba en una tienda si tenía mi talla.</string>
+        <string name="yo_nunca_clasico_afirmacion_24">Yo nunca he indicado mal un camino cuando me han preguntado.</string>
+        <string name="yo_nunca_clasico_afirmacion_25">Yo nunca he olido mi propio pedo.</string>
+        <string name="yo_nunca_clasico_afirmacion_26">Yo nunca he movido la boca aunque no me sepa la canción.</string>
+        <string name="yo_nunca_clasico_afirmacion_27">Yo nunca he intentado mover cosas con la mente (sin resultado).</string>
+        <string name="yo_nunca_clasico_afirmacion_28">Yo nunca he tonteado con el novio de un amig@.</string>
+        <string name="yo_nunca_clasico_afirmacion_29">Yo nunca he cotilleado a quién daba like mis exparejas.</string>
+
+        <string name="yo_nunca_clasico_afirmacion_30">Yo nunca he mirado el papel después de ir al baño.</string>
+        <string name="yo_nunca_clasico_afirmacion_31">Yo nunca me he creído Mr Robot al instalar un programa pirata.</string>
+        <string name="yo_nunca_clasico_afirmacion_32">Yo nunca he mandado un audio subidito de tono a mi madre por error.</string>
+        <string name="yo_nunca_clasico_afirmacion_33">Yo nunca he llorado en una película de Disney.</string>
+        <string name="yo_nunca_clasico_afirmacion_34">Yo nunca bailé el “Gangnam Style”.</string>
+        <string name="yo_nunca_clasico_afirmacion_35">Yo nunca he googleado mi nombre para ver qué aparece.</string>
+        <string name="yo_nunca_clasico_afirmacion_36">Yo nunca he tenido un mote.</string>
+        <string name="yo_nunca_clasico_afirmacion_37">Yo nunca he hecho una locura por amor.</string>
+        <string name="yo_nunca_clasico_afirmacion_38">Yo nunca he tenido un ataque de risa en un momento inapropiado.</string>
+        <string name="yo_nunca_clasico_afirmacion_39">Yo nunca he comido insectos.</string>
+
+        <string name="yo_nunca_clasico_afirmacion_40">Yo nunca he pensado que me gustaria que escribieran en mi esquela.</string>
+        <string name="yo_nunca_clasico_afirmacion_41">Yo nunca he pensado que me parezco a un dibujo animado.</string>
+        <string name="yo_nunca_clasico_afirmacion_42">Yo nunca he tenido una cita que acabo siendo un desastre.</string>
+        <string name="yo_nunca_clasico_afirmacion_43">Yo nunca he pensado en tatuarme algo ridiculo.</string>
+        <string name="yo_nunca_clasico_afirmacion_44">Yo nunca he tenido una experiencia sexual absurda.</string>
+        <string name="yo_nunca_clasico_afirmacion_45">Yo nunca me he tirado un pedo y he acusado a otra persona.</string>
+        <string name="yo_nunca_clasico_afirmacion_46">Yo nunca me he meado encima.</string>
+        <string name="yo_nunca_clasico_afirmacion_47">Yo nunca me he arrepentido de un audio que envia estando de fiesta.</string>
+        <string name="yo_nunca_clasico_afirmacion_48">Yo nunca he pensado en volver con mi ex.</string>
+        <string name="yo_nunca_clasico_afirmacion_49">Yo nunca he pensado que me iria mejor si tuviese la vida de otra persona (conocida).</string>
+
+
+        //afirmaciones erotico
+        <string name="yo_nunca_afirmacion_0">Yo nunca lo he hecho sin haber querido.</string>
+        <string name="yo_nunca_afirmacion_1">Yo nunca lo he hecho con mas de una persona en un mismo dia.</string>
+        <string name="yo_nunca_afirmacion_2">Yo nunca he querido tirarme a la madre/padre de un amigo/a.</string>
+        <string name="yo_nunca_afirmacion_3">Yo nunca he querido tirarme al hermano/a de un amigo/a.</string>
+        <string name="yo_nunca_afirmacion_4">Yo nunca me he querido liar con alguien presente.</string>
+        <string name="yo_nunca_afirmacion_5">Yo nunca he tenido fantasias sexuales sobre alguien que no considerase atractivo/a.</string>
+        <string name="yo_nunca_afirmacion_6">Yo nunca lo he hecho a pelo.</string>
+        <string name="yo_nunca_afirmacion_7">Yo nunca he acabado en la boca de alguien/ me han acabado en la boca.</string>
+        <string name="yo_nunca_afirmacion_8">Yo nunca he querido tirarme al novio/a de un amigo/a.</string>
+        <string name="yo_nunca_afirmacion_9">A mi nunca me han pedido que fuese mas lento porque iba demasiado rapido.</string>
+
+        <string name="yo_nunca_afirmacion_10"> Yo nunca he dejado con las ganas a alguien.</string>
+        <string name="yo_nunca_afirmacion_11">A mi nunca me han dejado con las ganas.</string>
+        <string name="yo_nunca_afirmacion_12">Yo nunca he tenido la tipica discusion de luces -encendidas/apagadas-.</string>
+        <string name="yo_nunca_afirmacion_13">Yo nunca me he encontrado un pelo en la boca tras hacer oral.</string>
+        <string name="yo_nunca_afirmacion_14">Yo nunca he puesto los cuernos.</string>
+        <string name="yo_nunca_afirmacion_15">A mi nunca me han puesto los cuernos.</string>
+        <string name="yo_nunca_afirmacion_16">Yo nunca he dudado de mi orientacion sexual.</string>
+        <string name="yo_nunca_afirmacion_17">Yo nunca me he liado con dos personas .de distinto sexo en una noche</string>
+        <string name="yo_nunca_afirmacion_18">Yo nunca me he liado con alguien y me he arrepentido inmediatamente despues.</string>
+        <string name="yo_nunca_afirmacion_19">Yo nunca he tenido sexo por pena.</string>
+
+        <string name="yo_nunca_afirmacion_20">Yo nunca me he tirado a mi ex.</string>
+        <string name="yo_nunca_afirmacion_21">A mi nunca me han pillado en el acto.</string>
+        <string name="yo_nunca_afirmacion_22">Yo nunca lo he hecho en un lugar publico.</string>
+        <string name="yo_nunca_afirmacion_23">Yo nunca lo he hecho en la cama de una tercera persona.</string>
+        <string name="yo_nunca_afirmacion_24">Yo nunca lo he hecho con mas gente al rededor.</string>
+        <string name="yo_nunca_afirmacion_25">Yo nunca he hecho un trio.</string>
+        <string name="yo_nunca_afirmacion_26">Yo nunca he tenido fantasias sexuales sobre hacer un trio con mi novio/a y otra persona.</string>
+        <string name="yo_nunca_afirmacion_27">Yo nunca me he masturbado con un objeto inanimado.</string>
+        <string name="yo_nunca_afirmacion_28">Yo nunca me he hecho daño a mi mismo al masturbarme.</string>
+        <string name="yo_nunca_afirmacion_29">Yo nunca me he decepcionado al liarme/tirarme a alguien con quien tenia muchas ganas.</string>
+
+        <string name="yo_nunca_afirmacion_30">Yo nunca he practicado sadomasoquismo o usado objetos relacionados.</string>
+        <string name="yo_nunca_afirmacion_31">Yo nunca he intentado anal pero no salio bien.</string>
+        <string name="yo_nunca_afirmacion_32">Yo nunca he practicado anal por placer.</string>
+        <string name="yo_nunca_afirmacion_33">Yo nunca me he liado/tirado a alguien que tenia minimo 5 años mas que yo.</string>
+        <string name="yo_nunca_afirmacion_34">Yo nunca he hecho algo sexual en el colegio/universidad.</string>
+        <string name="yo_nunca_afirmacion_35">A mi nunca me han hecho un chupeton en un lugar poco comun.</string>
+        <string name="yo_nunca_afirmacion_36">Yo nunca he intentado emborrachar a alguien para liarme con esa persona.</string>
+        <string name="yo_nunca_afirmacion_37">Yo nunca he visto porno con otra persona.</string>
+        <string name="yo_nunca_afirmacion_38">Yo nunca me he grabado con alguien en la cama.</string>
+        <string name="yo_nunca_afirmacion_39">Yo nunca me he masturbado con una pelicula que no fuese pornografica.</string>
+
+        <string name="yo_nunca_afirmacion_40">Yo nunca he tenido un gatillazo.</string>
+        <string name="yo_nunca_afirmacion_41">Yo nunca lo he hecho con la regla.</string>
+        <string name="yo_nunca_afirmacion_42">A mi nunca me han meado encima.</string>
+        <string name="yo_nunca_afirmacion_43">Yo nunca lo he hecho disfrazado para satisfacer algun morbo.</string>
+        <string name="yo_nunca_afirmacion_44">Yo nunca me he liado con el chico/a con quien estaba intentando ligar un amigo/a.</string>
+        <string name="yo_nunca_afirmacion_45">Yo nunca me lo he tragado.</string>
+        <string name="yo_nunca_afirmacion_46">Yo nunca me he excitado en un momento muy poco apropiado.</string>
+        <string name="yo_nunca_afirmacion_47">A mi nunca se me ha roto el condon.</string>
+        <string name="yo_nunca_afirmacion_48">Yo nunca he estado un año sin sexo tras haberlo hecho previamente.</string>
+        <string name="yo_nunca_afirmacion_49">Yo nunca me he limpiado el culo tan fuerte, que el papel se rompe y mi dedo indice acaba tocando mi ano.</string>
+
+        <string name="yo_nunca_afirmacion_50">Yo nunca he involucrado comida en el sexo.</string>
+        <string name="yo_nunca_afirmacion_51">Yo nunca lo he hecho en una fiesta.</string>
+        <string name="yo_nunca_afirmacion_52">Yo nunca me he tomado la pastilla del dia despues.</string>
+        <string name="yo_nunca_afirmacion_53">Yo nunca he tenido sexo por telefono.</string>
+        <string name="yo_nunca_afirmacion_54">Yo nunca he tenido que correr a buscar mi ropa porque acababan de tocar el timbre de la casa.</string>
+        <string name="yo_nunca_afirmacion_55">Yo nunca he parado de liarme/tirarme a alguien para preguntarle a la persona como se  llamaba.</string>
+        <string name="yo_nunca_afirmacion_56">Yo nunca me he liado/tirado a el/la ex de un amigo/a.</string>
+        <string name="yo_nunca_afirmacion_57">Yo nunca le he mentido sobre mis experiencias sexuales a mi nueva pareja.</string>
+        <string name="yo_nunca_afirmacion_58">Yo nunca he tenido que enseñar/a mi nunca me han tenido que enseñar como desabrochar un sujetador.</string>
+        <string name="yo_nunca_afirmacion_59">Yo nunca he tenido una fantasia sexual sobre un profesor/profesora.</string>
+
+        <string name="yo_nunca_afirmacion_60">Yo nunca he pillado a mis padres haciendolo.</string>
+        <string name="yo_nunca_afirmacion_61">Yo nunca me he sacado fotos desnudo/a.</string>
+        <string name="yo_nunca_afirmacion_62">Yo nunca he llamado a alguien por un nombre equivocado mientras lo estabamos haciendo.</string>
+        <string name="yo_nunca_afirmacion_63">Yo nunca/A mi nunca - me han lamido el culo</string>
+        <string name="yo_nunca_afirmacion_64">Yo nunca lo he hecho en la ducha.</string>
+        <string name="yo_nunca_afirmacion_65">Yo nunca he usado el kamasutra para aprender o involucrar nuevas posiciones en la cama.</string>
+        <string name="yo_nunca_afirmacion_66">Yo nunca lo he hecho con alguien que era virgen.</string>
+        <string name="yo_nunca_afirmacion_67">Yo nunca he mentido sobre ser virgen.</string>
+        <string name="yo_nunca_afirmacion_68">Yo nunca me he medido el pene.</string>
+        <string name="yo_nunca_afirmacion_69">Yo nunca he borrado conversaciones subidas de tono para que mi pareja no me pillase.</string>
+
+
+        <string name="yo_nunca_afirmacion_70">Yo nunca me he liado/ tirado a alguien que no me parecia atractivo/a solo porque estaba desesperado/a.</string>
+        <string name="yo_nunca_afirmacion_71">Yo nunca he creido haber contraido una enfermedad de transmision sexual.</string>
+        <string name="yo_nunca_afirmacion_72">Yo nunca he fingidobg/exagerado un orgasmo.</string>
+        <string name="yo_nunca_afirmacion_73">Yo nunca he tenido un follamigo/a.</string>
+        <string name="yo_nunca_afirmacion_74">Yo nunca he salido de casa sin ropa interior.</string>
+        <string name="yo_nunca_afirmacion_75">Yo nunca me he liado/tirado a un extranjero/a.</string>
+        <string name="yo_nunca_afirmacion_76">Yo nunca he sentido envidia al ver los genitales de un amigo/a.</string>
+        <string name="yo_nunca_afirmacion_77">Yo nunca me he masturbado en casa de un amigo/a.</string>
+        <string name="yo_nunca_afirmacion_78">Yo nunca he hecho/a mi nunca me han hecho una mamada con condon.</string>
+        <string name="yo_nunca_afirmacion_79">Yo nunca he usado hielo en la cama.</string>
+
+        <string name="yo_nunca_afirmacion_80">Yo nunca he pedido que satisfacieran un fetiche mio pero sin exito.</string>
+        <string name="yo_nunca_afirmacion_81">Yo nunca he intentado esconder una ereccion en publico sin exito.</string>
+        <string name="yo_nunca_afirmacion_82">A mi nunca me ha puesto la violencia en la cama.</string>
+        <string name="yo_nunca_afirmacion_83">Yo nunca me he tirado/se han tirado un pedo en el acto.</string>
+        <string name="yo_nunca_afirmacion_84">Yo nunca le he roto la ropa a mi pareja al quitarsela.</string>
+        <string name="yo_nunca_afirmacion_85">Yo nunca he intentado/querido que una pareja rompiese.</string>
+        <string name="yo_nunca_afirmacion_86">Yo nunca he hecho/me han hecho una cubana.</string>
+        <string name="yo_nunca_afirmacion_87">Yo nunca me he masturbado viendo hentai.</string>
+        <string name="yo_nunca_afirmacion_88">Yo nunca he aceptado hacer algo por dinero.</string>
+        <string name="yo_nunca_afirmacion_89">Yo nunca he metido/me han metido mas de 3 dedos.</string>
+
+        <string name="yo_nunca_afirmacion_90">Yo nunca lo he hecho en un coche y sono la bocina.</string>
+        <string name="yo_nunca_afirmacion_91">A mi nunca me han tenido que enseñar una foto de con quien me habia liado porque no me acordaba.</string>
+        <string name="yo_nunca_afirmacion_92">Yo nunca me he depilado los genitales pensando que iba a pinchar y acabe comiendome los mocos.</string>
+        <string name="yo_nunca_afirmacion_93">Yo nunca he querido unirme a dos amigos que estuviesen haciendolo.</string>
+        <string name="yo_nunca_afirmacion_94">Yo nunca he conseguido liarme/tirarme a un amor platonico.</string>
+        <string name="yo_nunca_afirmacion_95">Yo nunca he tenido que usar mas de 2 condones en una misma ronda.</string>
+        <string name="yo_nunca_afirmacion_96">Yo nunca lo he hecho en todos los cuartos de mi/su casa.</string>
+        <string name="yo_nunca_afirmacion_97">Yo nunca he pedido por Chatroulette/Omegle que me enseñen el pene/las tetas.</string>
+        <string name="yo_nunca_afirmacion_98">Yo nunca he tenido que usar paginas online o aplicaciones para ligar.</string>
+        <string name="yo_nunca_afirmacion_99">Yo nunca he hecho una lista de todas los tios/tias con las que me he liado.</string>
+
+        <string name="yo_nunca_afirmacion_100">Yo nunca me he dado cuenta de que me estaban mirando mientras lo estaba haciendo.</string>
+        <string name="yo_nunca_afirmacion_101">Yo nunca me he liado con alguien presente.</string>
+        <string name="yo_nunca_afirmacion_102">Yo nunca me he liado/tirado a alguien que me cayera mal.</string>
+        <string name="yo_nunca_afirmacion_103">A mi nunca se me han acabado encima del cuerpo.</string>
+        <string name="yo_nunca_afirmacion_104">A mi nunca me han dado una hostia por estar tirando la caña.</string>
+        <string name="yo_nunca_afirmacion_105">Yo nunca me he arrepentido de con quien habia perdido la virginidad.</string>
+        <string name="yo_nunca_afirmacion_106">Yo nunca me he liado con alguien que acababa de vomitar.</string>
+        <string name="yo_nunca_afirmacion_107">A mi nunca me ha puesto alguien sin saber en su momento que esa persona tenia minimo 4 años menos que yo.</string>
+        <string name="yo_nunca_afirmacion_108">Yo nunca he salido con alguien con quien sabia que no iba a estar mucho tiempo.</string>
+        <string name="yo_nunca_afirmacion_109">Yo nunca he hecho un 69.</string>
+
+        <string name="yo_nunca_afirmacion_110">Yo nunca lo he hecho con mis padres cerca.</string>
+        <string name="yo_nunca_afirmacion_111">Yo nunca he ligado con alguien para poner celoso/a a una persona.</string>
+        <string name="yo_nunca_afirmacion_112">Yo nunca me he resbalado mientras lo hacia en la ducha.</string>
+        <string name="yo_nunca_afirmacion_113">Yo nunca le he dicho a alguien te quiero solo para follar.</string>
+        <string name="yo_nunca_afirmacion_114">Yo nunca he hecho/a mi nunca me han hecho sangrar al meter dedos.</string>
+        <string name="yo_nunca_afirmacion_115">Yo nunca he echado un polvo malisimo.</string>
+        <string name="yo_nunca_afirmacion_116">Yo nunca me he masturbado al menos 5 veces en un dia.</string>
+        <string name="yo_nunca_afirmacion_117">Yo nunca he tenido un sueño mojado.</string>
+        <string name="yo_nunca_afirmacion_118">Yo nunca he pensado que el sexo oral era asqueroso.</string>
+        <string name="yo_nunca_afirmacion_119">Yo nunca he pensado que el sexo oral es mejor que la penetracion.</string>
+
+        <string name="yo_nunca_afirmacion_120">Yo nunca he pensado en otra persona mientras estaba haciendolo con alguien.</string>
+        <string name="yo_nunca_afirmacion_121">Yo nunca lo he hecho con alguien que en mi opinion tenia el pene pequeño.</string>
+        <string name="yo_nunca_afirmacion_122">Yo nunca he usado condones con sabores.</string>
+        <string name="yo_nunca_afirmacion_123">Yo nunca he/a mi nunca se me han acabado dentro sin condon.</string>
+        <string name="yo_nunca_afirmacion_124">Yo nunca me he guardado las fotos de mi ex desnudo/a despues de haber cortado con el/ella.</string>
+        <string name="yo_nunca_afirmacion_125">Yo nunca he usado/nunca han usado conmigo la marcha atras como metodo anticonceptivo.</string>
+        <string name="yo_nunca_afirmacion_126">Yo nunca he sido complice de cuernos.</string>
+        <string name="yo_nunca_afirmacion_127">A mi nunca me ha tirado la caña un familiar de mi novio/a.</string>
+        <string name="yo_nunca_afirmacion_128">Yo nunca he mandado a la friendzone a alguien tras haberme liado con esa persona.</string>
+        <string name="yo_nunca_afirmacion_129">Yo nunca me he alegrado por algo malo que le haya pasado a mi ex.</string>
+
+        <string name="yo_nunca_afirmacion_130">Yo nunca lo he hecho mas de 5 veces en un dia.</string>
+        <string name="yo_nunca_afirmacion_131">Yo nunca me he liado con alguien de mi actual clase.</string>
+        <string name="yo_nunca_afirmacion_132">A mi nunca me han hecho una cobra de verdad.</string>
+        <string name="yo_nunca_afirmacion_133">Yo nunca me he arrepentido de un tatuaje.</string>
+        <string name="yo_nunca_afirmacion_134">A mi nunca me ha dado mas morbo hacerlo fuera de casa que dentro.</string>
+        <string name="yo_nunca_afirmacion_135">Yo nunca me he quedado dormido/a durante el sexo.</string>
+        <string name="yo_nunca_afirmacion_136">Yo nunca me he pillado por alguien mientras tenia novio/a.</string>
+        <string name="yo_nunca_afirmacion_137">Yo nunca he cortado con un novio/a porque el sexo no me satisfacia.</string>
+        <string name="yo_nunca_afirmacion_138">Yo nunca he roto la cama al hacerlo.</string>
+        <string name="yo_nunca_afirmacion_139">A mi nunca me han llamado la atencion los vecinos por hacer demasiado ruido durante el sexo.</string>
+
+        <string name="yo_nunca_afirmacion_140">Yo nunca he aguantado menos de 10 minutos en la cama.</string>
+        <string name="yo_nunca_afirmacion_141">Nunca han aguantado menos de 10 minutos en la cama conmigo.</string>
+        <string name="yo_nunca_afirmacion_142">Yo nunca lo he hecho 3 o mas veces seguidas.</string>
+        <string name="yo_nunca_afirmacion_143">Yo nunca me he/a mi nunca me han despertado con una mamada/polvo.</string>
+        <string name="yo_nunca_afirmacion_144">Yo nunca me he masturbado mientras hacia una videollamada con alguien.</string>
+        <string name="yo_nunca_afirmacion_145">Yo nunca me he creado una cuenta falsa en alguna red social para ver lo que hacia un/a ex sin que se diese cuenta.</string>
+        <string name="yo_nunca_afirmacion_146">Yo nunca he conseguido liarme o salir con alguien con quien estaba previamente en la friendzone.</string>
+        <string name="yo_nunca_afirmacion_147">A mi nunca me han pillado un chupeton mis padres.</string>
+        <string name="yo_nunca_afirmacion_148">Yo nunca tendria una relacion con alguien presente si se diese el caso.</string>
+        <string name="yo_nunca_afirmacion_149">Yo nunca he/a mi nunca me han agarrado del pelo con fuerza en el sexo.</string>
+
+        <string name="yo_nunca_afirmacion_150">Yo nunca he visto porno de hermanastros/padrastros/madrastas.</string>
+        <string name="yo_nunca_afirmacion_151">Yo nunca he/a mi nunca me han hecho garganta profunda.</string>
+        <string name="yo_nunca_afirmacion_152">Yo nunca me he sentido mal conmigo mismo tras tocarme.</string>
+        <string name="yo_nunca_afirmacion_153">Yo nunca le he seguido el rollo a un profesora/a que me estuviese tirando.</string>
+        <string name="yo_nunca_afirmacion_154">Yo nunca he pedido hacer un video porno pero sin exito.</string>
+        <string name="yo_nunca_afirmacion_155">Yo nunca he fingido ser de otra nacionalidad para ligar.</string>
+        <string name="yo_nunca_afirmacion_156">Yo nunca he tenido sexo interracial.</string>
+        <string name="yo_nunca_afirmacion_157">Yo nunca he estado frustrado porque no me satisfacia el sexo con una persona a quien queria.</string>
+        <string name="yo_nunca_afirmacion_158">Yo nunca me he masturbado en grupo.</string>
+        <string name="yo_nunca_afirmacion_159">Yo nunca me he obsesionado entera o parcialmente con alguien tras liarme con esa persona una vez.</string>
+
+        <string name="yo_nunca_afirmacion_160">Yo nunca he lamido unos pezones.</string>
+        <string name="yo_nunca_afirmacion_161">A mi nunca me han lamido los pezones.</string>
+        <string name="yo_nunca_afirmacion_162">Yo nunca he estado en la friendzone con alguien presente.</string>
+        <string name="yo_nunca_afirmacion_163">Yo nunca he cortado con alguien para salir con otra persona.</string>
+        <string name="yo_nunca_afirmacion_164">Nunca han cortado conmigo para salir con otra persona.</string>
+        <string name="yo_nunca_afirmacion_165">Yo nunca lo he hecho estando enfermo.</string>
+        <string name="yo_nunca_afirmacion_166">Yo nunca me he querido tirar/tirado a mi mejor amigo/a.</string>
+        <string name="yo_nunca_afirmacion_167">Yo nunca he preferido los culos a las tetas.</string>
+        <string name="yo_nunca_afirmacion_168">Yo nunca he tenido pique con el novio/a de mi ex.</string>
+        <string name="yo_nunca_afirmacion_169">Yo nunca he pensado que me casaria con un ex o actual pareja.</string>
+
+        <string name="yo_nunca_afirmacion_170">Yo nunca he soñado que me liaba/tiraba a alguien y me he decepcionado al despertarme.</string>
+        <string name="yo_nunca_afirmacion_171">Yo nunca me he liado con alguien que tenia muy mal aliento.</string>
+        <string name="yo_nunca_afirmacion_172">A mi nunca me han hecho daño al practicar sexo oral.</string>
+        <string name="yo_nunca_afirmacion_173">Yo nunca he tenia la paranoia de estar embarazada porque se me habia retrasado la regla.</string>
+        <string name="yo_nunca_afirmacion_174">Yo nunca he/a mi nunca me han hecho una mamada conduciendo.</string>
+        <string name="yo_nunca_afirmacion_175">Yo nunca le he seguido el rollo a alguien que me estaba tirando solo para conseguir alcohol.</string>
+        <string name="yo_nunca_afirmacion_176">Yo nunca he visto un juguete sexual y he sentido intriga.</string>
+        <string name="yo_nunca_afirmacion_177">Yo nunca he tenido un sueño sexual sobre alguien presente/de la clase.</string>
+        <string name="yo_nunca_afirmacion_178">Yo nunca he sentido intriga por practicar sexo oral con alguien de mi mismo sexo.</string>
+        <string name="yo_nunca_afirmacion_179">Yo nunca he pensado que el sexo entre mismo sexo es o seria mejor que el sexo entre distintos sexos.</string>
+
+        <string name="yo_nunca_afirmacion_180">Yo nunca he sentido atraccion por algun familiar.</string>
+        <string name="yo_nunca_afirmacion_181">Yo nunca he chupado un pene/coño que supiera muy mal.</string>
+        <string name="yo_nunca_afirmacion_182"> A mi nunca me ha interrumpido mi mascota mientras estaba haciendolo.</string>
+        <string name="yo_nunca_afirmacion_183"> Yo nunca me he/nunca se han equivocado de agujero.</string>
+        <string name="yo_nunca_afirmacion_184">Yo nunca me he masturbado justo antes de hacerlo para durar mas.</string>
+        <string name="yo_nunca_afirmacion_185"> Yo nunca he usado un video porno como modelo a seguir.</string>
+        <string name="yo_nunca_afirmacion_186">Yo nunca me he vestido de cierta forma para atraer la atencion de alguien y paso de mi.</string>
+        <string name="yo_nunca_afirmacion_187">Yo nunca he alquilado una habitacion de hotel o motel solo para follar.</string>
+        <string name="yo_nunca_afirmacion_188">Yo nunca haria un trio con gente aqui presente.</string>
+        <string name="yo_nunca_afirmacion_189">Yo nunca he jugado a algun juego con el castigo de hacer un striptease.</string>
+
+        <string name="yo_nunca_afirmacion_190">Yo nunca me he liado con alguien que besase realmente mal.</string>
+        <string name="yo_nunca_afirmacion_191">Yo nunca he usado el movil mientras lo estaba haciendo.</string>
+        <string name="yo_nunca_afirmacion_192">Yo nunca lo he hecho manteniendo 0 contacto visual con la otra persona.</string>
+        <string name="yo_nunca_afirmacion_193">A mi nunca me ha tirado para atras ver cuanto pelo pubico tenia la persona con la que lo iba a hacer.</string>
+        <string name="yo_nunca_afirmacion_194">Yo nunca me he reido mientras lo estaba haciendo.</string>
+        <string name="yo_nunca_afirmacion_195">Yo nunca he tirado la caña de broma y acabo saliendo mejor de lo que esperaba.</string>
+        <string name="yo_nunca_afirmacion_196">Yo nunca me he liado/tirado al mejor amigo/a de mi ex.</string>
+        <string name="yo_nunca_afirmacion_197">Yo nunca he me hecho fotos sensuales desnudo/a para enviarselas a alguien.</string>
+        <string name="yo_nunca_afirmacion_198"> Yo nunca he puesto/a mi nunca me han puesto un condon con la boca.</string>
+        <string name="yo_nunca_afirmacion_199">  Yo nunca he mentido en este Yo Nunca.</string>
+
+        <string name="yo_nunca_afirmacion_200">Yo nunca me he tirado/liado a alguien que no he vuelto a ver en mi vida.</string>
+        <string name="yo_nunca_afirmacion_201">Yo nunca me he imaginado como serian las tetas/el pene de alguien presente.</string>
+        <string name="yo_nunca_afirmacion_202">Yo nunca me habria tirado a alguien de clase a principio de curso pero ahora me da asco.</string>
+        <string name="yo_nunca_afirmacion_203">Yo nunca he estado pillado por alguien presente sin haberselo dicho nunca.</string>
+
+    //Autopista
+        //texto botones
+        <string name="autopista_boton_mayor">MAYOR</string>
+        <string name="autopista_boton_menor">MENOR</string>
+        <string name="autopista_boton_como_jugar">como jugar</string>
+
+        //texto textViews
+        <string name="autopista_textView_principal">¿MAYOR O MENOR?</string>
+        <string name="autopista_textView_peaje">PEAJE</string>
+        <string name="autopista_mazo">MAZO</string>
+        <string name="autopista_pagado">PAGADO</string>
+
+        //toast
+        <string name="autopista_toast_bebes">BEBES</string>
+        <string name="autopista_toast_peaje">PEAJE</string>
+
+
+        //texto fin de juego + juego no terminado
+        <string name="autopista_fin_de_juego_texto">Enhorabuena, has completado la autopista. ¿Quieres jugar de nuevo?</string>
+        <string name="autopista_fin_de_juego_boton_si">Si</string>
+        <string name="autopista_fin_de_juego_boton_no">No</string>
+        <string name="autopista_fin_de_juego_titulo">FIN DEL JUEGO</string>
+        <string name="autopista_fin_de_juego_no_terminado_texto">Losiento, no has completado la autopista. ¿Quieres intentarlo de nuevo?</string>
+
+
+        //texto como jugar
+        <string name="autopista_como_jugar_texto">Intenta completar la autopista. Tendras que adivinar si la siguiente carta que salga del mazo es
+            mayor o menor que la carta señalada con la flecha para avanzar. Pero cuidado, si te equivocas deberas
+            beber un trago y retrocederas una posicion (si la carta es igual, cuenta como fallo).
+            Las cartas que estan dadas la vuelta son peajes, cada vez que pases por encima de ellas deberas
+            beber un trago, no importa si has acertado o has fallado, si pasas por un peaje lo tienes que pagar.
+             Ganas si completas la autopista antes de que se acaben las cartas del mazo. ¡Buena Suerte!</string>
+        <string name="autopista_como_jugar_boton_ok"> OK</string>
+        <string name="autopista_como_jugar_titulo">COMO JUGAR</string>
+
+    //El JUEGO
+
+
+        //texto botones + text view
+        <string name="el_juego_boton_siguiente">SIGUIENTE</string>
+        <string name="el_juego_boton_sugerencia">SUGERENCIA</string>
+        <string name="el_juego_boton_como_jugar">COMO JUGAR</string>
+        <string name="el_juego_texto_text_view">EL JUEGO</string>
+
+
+        //texto fin de juego + juego no terminado
+        <string name="el_juego_fin_de_juego_texto">Se acabo. ¿Quieres jugar de nuevo?</string>
+        <string name="el_juego_fin_de_juego_boton_si">Si</string>
+        <string name="el_juego_fin_de_juego_boton_no">No</string>
+        <string name="el_juego_fin_de_juego_titulo">FIN DEL JUEGO</string>
+
+        //texto como jugar
+        <string name="el_juego_como_jugar_texto">Sentaros en circulo, por turnos debereis pulsar siguiente y completar la
+            prueba/reto/pregunta que aparezca. Pulsa siguiente para cambiar la frase, pulsa en el boton de sugerencia para
+            enviarnos frases/retos/pruebas que quieras que incluyamos en el juego.</string>
+        <string name="el_juego_como_jugar_boton_ok"> OK</string>
+        <string name="el_juego_como_jugar_titulo">COMO JUGAR</string>
+
+
+        //preguntas-pruebas
+        <string name="el_juego_frase_0">Di el nombre y apellido de todos los jugadores. Bebe por cada fallo.</string>
+        <string name="el_juego_frase_1">El primer jugador que reciba una notificación deberá beber un trago.</string>
+        <string name="el_juego_frase_2">Elige un jugador, no podrá hablar durante una ronda.</string>
+        <string name="el_juego_frase_3">El resto de los jugadores beben 1 trago por cada 2 que bebas tu.</string>
+        <string name="el_juego_frase_4">Mide usando tus manos la cintura del jugador de tu derecha. Bebe si sale par si no beberá el.</string>
+        <string name="el_juego_frase_5">Sacar todos el DNI el que mas feo salga reparte 4 tragos.</string>
+        <string name="el_juego_frase_6">Bebe el ultimo que grite “LIO PINGO”.</string>
+        <string name="el_juego_frase_7">Beben los jugadores que no lleven tanga.</string>
+        <string name="el_juego_frase_8">Quien enseñe un preservativo reparte 3 tragos.</string>
+        <string name="el_juego_frase_9">Señala un jugador, el ultimo que le tire algo bebe 2 tragos.</string>
+
+        <string name="el_juego_frase_10">Durante una ronda antes de beber deberás decir “PINGO INGO” bebes dobles cada vez que falles.</string>
+        <string name="el_juego_frase_11">Beben 1 trago los jugadores que tengan pareja y los que no beben 2.</string>
+        <string name="el_juego_frase_12">Cadena de gestos, haz un gesto, el siguiente jugador deberá repetirlo y añadir otro diferente, así sucesivamente hasta que un jugador falle. El jugador que falle deberá beber 3 tragos.</string>
+        <string name="el_juego_frase_13">Deja que te den un beso con pintalabios en la frente. Reparte 4 tragos si te dejas, bebe 2 si no.</string>
+        <string name="el_juego_frase_14">Coge un teléfono y junto a una persona del sexo contrario deberéis dar una vuelta a la habitación sujetándolo con el culo.</string>
+        <string name="el_juego_frase_15">No bebes durante una ronda.</string>
+        <string name="el_juego_frase_16">El jugador que diga una palabrota deberá beber 1 trago. Esta norma dura 1 ronda.</string>
+        <string name="el_juego_frase_17">Deja que la persona de tu izquierda elija un contacto de tu teléfono al azar, deberás escribir a ese contacto “tenemos que hablar”.</string>
+        <string name="el_juego_frase_18">Con los ojos cerrados deberás dejar que la persona de tu derecha pase su mano por tu cuerpo sin tocar, cuando digas “pingo” deberá darte un mordisco en esa zona.</string>
+        <string name="el_juego_frase_19">Lanza una moneda al aire, si sale cara te quitas una prenda si sale cruz se la quita quien tú quieras.</string>
+
+        <string name="el_juego_frase_20">Escoge a un jugador del sexo contrario, deberéis realizar la postura erótica que más te guste.</string>
+        <string name="el_juego_frase_21">Cuenta una historia (real o inventada tú eliges). El resto de los jugadores deberán decir si es real o inventada, beben 2 tragos los que fallen.</string>
+        <string name="el_juego_frase_22">Durante una ronda deberás señalar a la persona con la que quieres hablar, bebes un trago cada vez que se te olvide.</string>
+        <string name="el_juego_frase_23">Yo nunca he presumido de algo que no he hecho.</string>
+        <string name="el_juego_frase_24">Todos beben 3 tragos mientras tu aplaudes.</string>
+        <string name="el_juego_frase_25">Bebes 3 tragos mientras el resto te aplaude.</string>
+        <string name="el_juego_frase_26">Beben las jugadoras que tengan más de una talla 90, las que tengan mas de 120 beben doble y los hombres aplauden.</string>
+        <string name="el_juego_frase_27">Beben los jugadores que usen gafas/lentillas.</string>
+        <string name="el_juego_frase_28">Beben los jugadores que lleven tanga.</string>
+        <string name="el_juego_frase_29">Beben 1 tragos los fumadores y beben 2 los que no lo son.</string>
+
+        <string name="el_juego_frase_30">Los hombres beben 2 tragos mientras las mujeres les piropean.</string>
+        <string name="el_juego_frase_31">Las mujeres beben 2 tragos mientras los hombres les piropean.</string>
+        <string name="el_juego_frase_32">Ponte de pie y vendate los ojos. Deberás adivinar, tocando el culo, quien es cada uno de los jugadores, bebe un trago por cada fallo.</string>
+        <string name="el_juego_frase_33">Bebe tantos tragos como tetas haya entre los jugadores.</string>
+        <string name="el_juego_frase_34">El jugador que lleve camisa o polo bebe 2 tragos.</string>
+        <string name="el_juego_frase_35">Todos los jugadores deberán beber hasta que terminen sus vasos y el menor los rellena.</string>
+        <string name="el_juego_frase_36">Pon una norma que se deberá cumplir durante una ronda.</string>
+        <string name="el_juego_frase_37">Cuenta un chiste. Si alguien se ríe bebe 1 trago, sino bebes 2.</string>
+        <string name="el_juego_frase_38">Publica “pingo app” en Instagram. Reparte 3 tragos si lo haces, bebe 5 si no.</string>
+        <string name="el_juego_frase_39">Durante una ronda no se puede decir el verbo beber ni sus conjugaciones. Bebe un trago cada vez que lo digas.</string>
+
+        <string name="el_juego_frase_40">Grita “bomba” el ultimo jugador que se tire al suelo bebe 3 tragos.</string>
+        <string name="el_juego_frase_41">Yo nunca he mentido jugando al yo nunca.</string>
+        <string name="el_juego_frase_42">El jugador más viejo bebe el doble de tragos durante una ronda.</string>
+        <string name="el_juego_frase_43">Enseñar los calzoncillos, beben los que no usen Calvin Klein.</string>
+        <string name="el_juego_frase_44">Los rubios beben 1 trago.</string>
+        <string name="el_juego_frase_45">Bebe el primer jugador que reciba un WhatsApp.</string>
+        <string name="el_juego_frase_46">Escóndete una moneda por el cuerpo y elija una persona del sexo contrario para que la encuentre, tiene 30 segundos si no la encuentra bebe 3 tragos.</string>
+        <string name="el_juego_frase_47">Confiesa con quien de los presentes tendrías relaciones sexuales.</string>
+        <string name="el_juego_frase_48">Elijé 3 personas presentes del sexo contrario y di con quien te casarías, con quien te acostarías y a quien matarías.</string>
+        <string name="el_juego_frase_49">Beben los morenos 2 tragos.</string>
+
+        <string name="el_juego_frase_50">Yo nunca he hecho el amor en la habitación de mis padres.</string>
+        <string name="el_juego_frase_51">Hablar con acento mexicano durante una ronda.</string>
+        <string name="el_juego_frase_52">Poder del guiño, durante una ronda beberá la persona a la que le guiñes el ojo.</string>
+        <string name="el_juego_frase_53">Cámbiale el sitio a un jugador, dale un beso y bebe un trago.</string>
+        <string name="el_juego_frase_54">Durante una ronda elije un jugador y deberá beber todos los tragos que te manden a ti.</string>
+        <string name="el_juego_frase_55">Durante una ronda deberás decir “PINGO” cada vez que bebas, bebe un trago extra cada vez que se te olvide.</string>
+        <string name="el_juego_frase_56">Durante una ronda elige un jugador que deberá beber contigo los tragos que te manden.</string>
+        <string name="el_juego_frase_57">Todos los jugadores te dan un beso en la mejilla. Bebe 3 tragos quien se niegue.</string>
+        <string name="el_juego_frase_58">Durante una ronda tira una moneda cada vez que te toque beber. Cara bebes, Cruz te libras.</string>
+        <string name="el_juego_frase_59">Los jugadores que tengan mascota beben 2 tragos.</string>
+
+        <string name="el_juego_frase_60">Durante una ronda deberéis beber con la mano izquierda. Bebes el doble cada vez que se te olvide.</string>
+        <string name="el_juego_frase_61">Durante una ronda tienes el poder de las preguntas, el jugador que te responda a una pregunta deberá beber un trago.</string>
+        <string name="el_juego_frase_62">Manda “X” tragos a un jugador y tu deberás beber el doble.</string>
+        <string name="el_juego_frase_63">Durante una ronda prohibido decir los nombres de pila. 1 trago cada vez que se os olvide.</string>
+        <string name="el_juego_frase_64">Bebes un trago, el de tu izquierda 2 y el de su izquierda 3.</string>
+        <string name="el_juego_frase_65">Reta a cualquier jugador del sexo contrario a piedra, papel o tijera. 3 tragos en juego.</string>
+
+
+
+
+    //Sugerencias
+
+        //mensaje enviado al usuario
+        <string name="sugerencia_mensaje_enviado_parte_1">Su correo: "</string>
+        <string name="sugerencia_mensaje_enviado_parte_2"> ". Se ha recibido correctamente y nuestro equipo de soporte atendera su mensaje lo antes posible. Gracias de parte del equipo de Pingo Aplicacion.</string>
+
+        //toast para gestionar el envio de mensajes
+        <string name="sugerencia_toast_mensaje_enviado">Mensaje enviado.</string>
+        <string name="sugerencia_toast_mensaje_error">Error, pruebe de nuevo o envie un correo directamente a pingo.aplicacion@gmail.com.</string>
+
+        //textos .xml
+        //texto descripcion layout superior
+        <string name="sugerencia_texto_descripcion_layoutSuperior">Introduce tu correo electrónico. En el asunto indica
+            el motivo de tu correo: sugerencia, bug, consejo, nuevo juego…, por ejemplo, Asunto: "Yo Nunca. Sugerencia",
+            por último, rellena el apartado mensaje. Muchas gracias
+por tu ayuda, de parte del equipo de Pingo aplicación.
+</string>
+        //textviews y editTExt
+        <string name="sugerencia_edit_text_mail">Escribe tu direccion de correo</string>
+        <string name="sugerencia_edit_text_asunto">Juego. Sugerencia</string>
+        <string name="sugerencia_edit_text_mensaje">Escribe tu sugerencia</string>
+        <string name="sugerencia_text_view_mail">Email</string>
+        <string name="sugerencia_text_view_asunto">Asunto</string>
+        <string name="sugerencia_text_view_mensaje">Mensaje</string>
+        //boton
+        <string name="sugerencia_boton_enviar">Enviar</string>
+
+    //AYUDA
+    <string name="ayuda_texto_principal">PINGO es una aplicación en la que encontraras juegos entretenidos para divertirte con tus amigos.
+Queremos que los usuarios disfrutéis de la aplicación y su contenido y forméis parte de la aplicación de forma activa por ello podéis contactar con nosotros en cualquier momento y para cualquier cosa, resolver una duda, arreglar un bug, aconsejarnos, sugerirnos nuevos juegos para añadir a la aplicación...
+Tambien queremos recordaros que el consumo de alcohol es NOCIVO para la salud, y desde el equipo de Pingo Aplicación desaconsejamos su consumo y si lo consume mientras utiliza nuestra aplicación es bajo su responsabilidad.</string>
+    <string name="ayuda_texto_boton"> CONTACTANOS</string>
+
+
+
+</resources>

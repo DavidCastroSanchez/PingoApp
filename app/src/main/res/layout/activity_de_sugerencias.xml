@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDeSugerencias">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutSuperiorSugerencia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/imagen_main"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutTextoSugerencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/hiad_20_dp"
+
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sugerencia_texto_descripcion_layoutSuperior"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                android:background="#f5f5f5"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/LinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/hiad_20_dp">
+            <TextView android:text="@string/sugerencia_text_view_mail"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_direccion"
+                android:textColor="#f5f5f5"
+                android:background="#000000"
+                android:textSize="@dimen/hiad_16_dp"
+                android:textAlignment="center"
+                android:textStyle="bold"></TextView>
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:width="170dip"
+                android:id="@+id/edit_text_direccion"
+                android:background="#f5f5f5"
+                android:text="@string/sugerencia_edit_text_mail"
+                android:textColor="#BDBDBD"
+                android:textAlignment="center"
+                android:textStyle="italic">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/LinearLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/hiad_4_dp">
+            <TextView android:text="@string/sugerencia_text_view_asunto"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_asunto"
+                android:textColor="#f5f5f5"
+                android:textSize="@dimen/hiad_16_dp"
+                android:background="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                ></TextView>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:width="170dip"
+                android:id="@+id/edit_text_asunto"
+                android:background="#f5f5f5"
+                android:text="@string/sugerencia_edit_text_asunto"
+                android:textColor="#BDBDBD"
+                android:textAlignment="center"
+                android:textStyle="italic">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/LinearLayout04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/hiad_4_dp">
+            <TextView android:text="@string/sugerencia_text_view_mensaje"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_correo"
+                android:textColor="#f5f5f5"
+                android:background="#000000"
+                android:textAlignment="center"
+                android:textSize="@dimen/hiad_16_dp"
+                android:textStyle="bold"></TextView>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="5"
+                android:width="350dip"
+                android:id="@+id/edit_text_correo"
+                android:background="#f5f5f5"
+                android:text="@string/sugerencia_edit_text_mensaje"
+                android:textAlignment="center"
+                android:textColor="#BDBDBD"
+                android:textStyle="italic">
+            </EditText>
+        </LinearLayout>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/boton_enviar_mail"
+            android:text="@string/sugerencia_boton_enviar"
+            android:background="#98d693"
+            android:width="150dip">
+        </Button>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

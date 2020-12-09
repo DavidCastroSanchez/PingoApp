@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Etilico</string>
+    <string name="titulo_yo_nunca">Yo nunca</string>
+    <string name="titulo_pruebas">Pruebas</string>
+    <string name="titulo_ayuda">Ayuda</string>
+    <string name="titulo_carrera">Carrera</string>
+
+    //Game MODES
+            <string name="modo_yo_nunca">I HAVE NEVER</string>
+            <string name="modo_el_juego">THE GAME</string>
+            <string name="modo_autopista">HIGHWAY</string>
+            <string name="modo_pingo">PINGO</string>
+            <string name="modo_ayuda">HELP</string>
+
+
+    //PINGO
+
+            //botones
+            <string name="pingo_boton_siguiente">NEXT</string>
+            <string name="pingo_boton_como_jugar">RULES</string>
+            //text view
+            <string name="pingo_text_view">START</string>
+            <string name="pingo_text_view_fin_de_juego">THE END</string>
+            //texto fin de juego + juego no terminado
+            <string name="pingo_fin_de_juego_texto">The end of PINGO. You want to play again?</string>
+            <string name="pingo_fin_de_juego_boton_si">YES</string>
+            <string name="pingo_fin_de_juego_boton_no">No</string>
+            <string name="pingo_fin_de_juego_titulo">THE END</string>
+            //como jugar texto+boton+titulo
+            <string name="pingo_como_jugar_texto_0">By turns. The players must stand in a circle. In each turn, one player draws a card (by pressing next), each card corresponds to a test, the test must be performed and the turn must be passed to the next player when it is completed. The tests are:</string>
+            <string name="pingo_como_jugar_texto_1">1-Shot- The player who draws this card must drink a shot.</string>
+            <string name="pingo_como_jugar_texto_2">2-Drinks two drinks- The player who draws this card must drink 2 drinks from his glass.</string>
+            <string name="pingo_como_jugar_texto_3">3-Dispense 3 drinks - the player who draws this card deals three drinks to anyone he wants (he can send the 3 drinks to one player, 2 drinks to one and 1 drink to another or 1 drink to three different players).</string>
+            <string name="pingo_como_jugar_texto_4">4-1,2,3,4- The player who draws the card takes a drink, the next player on his right takes 2 drinks, the next 3 drinks and the next 4 drinks.</string>
+            <string name="pingo_como_jugar_texto_5">5-Cascade - The player who draws the card has to start drinking and the others have to follow in the order they are sitting until the last player. When the first player stops drinking, everyone else has to stop drinking again in the order they are sitting.</string>
+            <string name="pingo_como_jugar_texto_6">6- Songs. The player who draws this card must sing a verse of a song of his choice, the other players (in order) must continue the song, the one who fails or cannot follow, loses and takes a drink.</string>
+            <string name="pingo_como_jugar_texto_7">7-Marks/lists. The player who draws this card must choose between Brands or lists of a certain theme (for example: car brands, alcoholic beverage brands, Pokémon, Actors/Actresses. . . ), in order each player must say a brand/list of that theme, the player who repeats or does not know any loses and drinks a drink.</string>
+            <string name="pingo_como_jugar_texto_8">8- Everyone drinks except you- All players must drink a drink except for the player who drew the card.</string>
+            <string name="pingo_como_jugar_texto_9">9-Drinks from everyones cup- The player who draws this card takes a drink from everyones cup.</string>
+            <string name="pingo_como_jugar_texto_10">10-Drink the one on your left-Drink the one on the left of the player who drew the card.</string>
+            <string name="pingo_como_jugar_texto_11">11-Drink the one on your right- Drink the one on the right of the player who drew the card.</string>
+            <string name="pingo_como_jugar_texto_12">12- Fill/Drink Center Cup- There are a total of four 12s in the deck, the first 3 must fill a center cup with their drink, the last 12 must drink the cup with the drink mix.</string>
+            <string name="pingo_como_jugar_boton_ok">OK</string>
+            <string name="pingo_como_jugar_titulo">RULES PINGO</string>
+            //Pruebas
+            <string name="pingo_prueba_1">DRINK ONE SHOT</string>
+            <string name="pingo_prueba_2">DRINK TWO SIPS</string>
+            <string name="pingo_prueba_3">HAND OUT 3 SIPS</string>
+            <string name="pingo_prueba_4">1,2,3,4</string>
+            <string name="pingo_prueba_5">WATERFALL</string>
+            <string name="pingo_prueba_6">SONGS</string>
+            <string name="pingo_prueba_7">BRANDS/LISTS</string>
+            <string name="pingo_prueba_8">DRINK ALL BUT YOU</string>
+            <string name="pingo_prueba_9">DRINK FROM EVERYONES GLASS</string>
+            <string name="pingo_prueba_10">DRINK THE ONE ON YOUR LEFT</string>
+            <string name="pingo_prueba_11">DRINK THE ONE ON YOUR RIGHT</string>
+            <string name="pingo_prueba_12">FILL UP/DRINK CENTER CUP</string>
+
+
+    //I´ve never
+            //Modes
+            <string name="yo_nunca_modo_clasico">CLASSIC</string>
+            <string name="yo_nunca_modo_erotico">EROTIC</string>
+
+            //Comojugar
+            <string name="yo_nunca_como_jugar_texto">I HAVE NEVER. Affirmations will appear on the screen,
+                    the player must drink if the affirmation is true for him.
+                    In the SUGGESTIONS button you will find the steps to send us affirmations to be included in the game</string>
+            <string name="yo_nunca_como_jugar_boton_ok">OK</string>
+            <string name="yo_nunca_como_jugar_titulo">RULES I HAVE NEVER</string>
+
+            //buttons
+            <string name="yo_nunca_boton_siguiente">NEXT</string>
+            <string name="yo_nunca_boton_como_jugar">RULES</string>
+            <string name="yo_nunca_boton_sugerencia">SUGGESTIONS</string>
+            <string name="yo_nunca_titulo">I HAVE NEVER...</string>
+
+            //texto fin de juego + juego no terminado
+            <string name="yo_nunca_fin_de_juego_texto">End of I HAVE NEVER. You want to play again?</string>
+            <string name="yo_nunca_fin_de_juego_boton_si">YES</string>
+            <string name="yo_nunca_fin_de_juego_boton_no">NO</string>
+            <string name="yo_nunca_fin_de_juego_titulo">THE END</string>
+
+
+            //sentences clasic
+
+            <string name="yo_nunca_clasico_afirmacion_0">I have never dropped my cell phone in the toilet.</string>
+            <string name="yo_nunca_clasico_afirmacion_1">I have never been back with my ex.</string>
+            <string name="yo_nunca_clasico_afirmacion_2">I have never farted and said "it smells bad" to throw you off.</string>
+            <string name="yo_nunca_clasico_afirmacion_3">I have never said I loved a gift and then returned it.</string>
+            <string name="yo_nunca_clasico_afirmacion_4">I have never had a vegan/vegetarian time and I have told everyone that.</string>
+            <string name="yo_nunca_clasico_afirmacion_5">I have never seen a show just for watching the actors ass on a loop.</string>
+            <string name="yo_nunca_clasico_afirmacion_6">I have never pretended to be in a video clip when I get out of the shower while putting intense faces in the mirror.</string>
+            <string name="yo_nunca_clasico_afirmacion_7">I have never made a Game of Thrones spoiler.</string>
+            <string name="yo_nunca_clasico_afirmacion_8">I have never peed in a pool in fear of the red circle appearing.</string>
+            <string name="yo_nunca_clasico_afirmacion_9">I have never pretended to be called to get away from a date.</string>
+
+            <string name="yo_nunca_clasico_afirmacion_10">I have never gone more than three days without a shower.</string>
+            <string name="yo_nunca_clasico_afirmacion_11">I have never joined the gym but I have not been more than twice.</string>
+            <string name="yo_nunca_clasico_afirmacion_12">I have never stalked my boyfriend/girlfriend exs instagram.</string>
+            <string name="yo_nunca_clasico_afirmacion_13">I have never made something up in a job interview.</string>
+            <string name="yo_nunca_clasico_afirmacion_14">I have never said "just chill" to convince a friend to go out and party.</string>
+            <string name="yo_nunca_clasico_afirmacion_15">I have never opened up to the police for having a party at home.</string>
+            <string name="yo_nunca_clasico_afirmacion_16">I have never imagined myself to be of the opposite sex.</string>
+            <string name="yo_nunca_clasico_afirmacion_17">I have never missed my train stop coming back from a party and ended up in another city.</string>
+            <string name="yo_nunca_clasico_afirmacion_18">I have never lost an iPhone.</string>
+            <string name="yo_nunca_clasico_afirmacion_19">I have never worn a pair of crystal glasses just for posture.</string>
+
+            <string name="yo_nunca_clasico_afirmacion_20">I have never weighed the fruit, I stuck the ticket in and then I put more in.</string>
+            <string name="yo_nunca_clasico_afirmacion_21">I have never lied in the I Never.</string>
+            <string name="yo_nunca_clasico_afirmacion_22">I have never sneezed and sprouted a booger.</string>
+            <string name="yo_nunca_clasico_afirmacion_23">I have never asked someone who did not work in a store if they had my size.</string>
+            <string name="yo_nunca_clasico_afirmacion_24">I have never pointed out a wrong way when I have been asked.</string>
+            <string name="yo_nunca_clasico_afirmacion_25">I have never smelled my own fart.</string>
+            <string name="yo_nunca_clasico_afirmacion_26">I have never moved my mouth even though I do not know the song.</string>
+            <string name="yo_nunca_clasico_afirmacion_27">I have never tried to move things with my mind (to no avail).</string>
+            <string name="yo_nunca_clasico_afirmacion_28">I have never fooled around with a friends boyfriend/girlfriend.</string>
+            <string name="yo_nunca_clasico_afirmacion_29">I have never gossiped about who I was giving like my ex-partners.</string>
+
+            <string name="yo_nunca_clasico_afirmacion_30">I have never looked at paper after going to the bathroom.</string>
+            <string name="yo_nunca_clasico_afirmacion_31">I have never believed Mr. Robot when he installed a pirate program.</string>
+            <string name="yo_nunca_clasico_afirmacion_32">I have never sent a ringtone up to my mother by mistake.</string>
+            <string name="yo_nunca_clasico_afirmacion_33">I have never cried in a Disney movie.</string>
+            <string name="yo_nunca_clasico_afirmacion_34">I have never danced the Gangnam Style.</string>
+            <string name="yo_nunca_clasico_afirmacion_35">I have never googled my name to see what comes up.</string>
+            <string name="yo_nunca_clasico_afirmacion_36">I have never had a nickname.</string>
+            <string name="yo_nunca_clasico_afirmacion_37">I have never done anything crazy for love.</string>
+            <string name="yo_nunca_clasico_afirmacion_38">I have never had an attack of laughter at an inappropriate time.</string>
+            <string name="yo_nunca_clasico_afirmacion_39">I have never eaten bugs.</string>
+
+            <string name="yo_nunca_clasico_afirmacion_40">I have never thought what i want to be writen in my obituary.</string>
+            <string name="yo_nunca_clasico_afirmacion_41">I have never thought I looked like a cartoon.</string>
+            <string name="yo_nunca_clasico_afirmacion_42">I have never had a date that ended up being a disaster.</string>
+            <string name="yo_nunca_clasico_afirmacion_43">I have never thought about getting a ridiculous tattoo.</string>
+            <string name="yo_nunca_clasico_afirmacion_44">I have never had an absurd sexual experience.</string>
+            <string name="yo_nunca_clasico_afirmacion_45">I have never farted and accused someone else.</string>
+            <string name="yo_nunca_clasico_afirmacion_46">I have never peed myself.</string>
+            <string name="yo_nunca_clasico_afirmacion_47">I have never regretted an audio clip he sent while partying.</string>
+            <string name="yo_nunca_clasico_afirmacion_48">I have never thought about getting back together with my ex.</string>
+            <string name="yo_nunca_clasico_afirmacion_49">I have never thought I had be better off if I had someone elses  life. (friend)</string>
+
+
+            //sentences erotic
+            <string name="yo_nunca_afirmacion_0">I have never done it without wanting to.</string>
+            <string name="yo_nunca_afirmacion_1">I have never done it with more than one person in one day.</string>
+            <string name="yo_nunca_afirmacion_2">I have never wanted to fuck a friends mother/father.</string>
+            <string name="yo_nunca_afirmacion_3">I have never wanted to fuck a friends brother or sister.</string>
+            <string name="yo_nunca_afirmacion_4">I have never wanted to get involved with anyone here.</string>
+            <string name="yo_nunca_afirmacion_5">I have never had sexual fantasies about someone I did not consider attractive.</string>
+            <string name="yo_nunca_afirmacion_6">I have never done it bareback.</string>
+            <string name="yo_nunca_afirmacion_7">I have never ended up in someones mouth/ I have ended up in their mouth.</string>
+            <string name="yo_nunca_afirmacion_8">I have never wanted to fuck a friends boyfriend/girlfriend.</string>
+            <string name="yo_nunca_afirmacion_9">I have never been asked to slow down because I was going too fast.</string>
+
+            <string name="yo_nunca_afirmacion_10">I have never let anyone down.</string>
+            <string name="yo_nunca_afirmacion_11">I have never been left wanting.</string>
+            <string name="yo_nunca_afirmacion_12">I have never had the typical light on/off discussion.</string>
+            <string name="yo_nunca_afirmacion_13">I have never found a hair in my mouth after doing oral.</string>
+            <string name="yo_nunca_afirmacion_14">I have never cheated.</string>
+            <string name="yo_nunca_afirmacion_15">I have never been cheated on.</string>
+            <string name="yo_nunca_afirmacion_16">I have never doubted my sexual orientation.</string>
+            <string name="yo_nunca_afirmacion_17">I have never made out with two people of different sexes in one night.</string>
+            <string name="yo_nunca_afirmacion_18">I have never made out with anyone and regretted it immediately afterwards.</string>
+            <string name="yo_nunca_afirmacion_19"> I have never had pity sex.</string>
+
+            <string name="yo_nunca_afirmacion_20">I have never fucked my ex.</string>
+            <string name="yo_nunca_afirmacion_21">I have never been caught in the act.</string>
+            <string name="yo_nunca_afirmacion_22">I have never done it in a public place.</string>
+            <string name="yo_nunca_afirmacion_23">I have never done it in a third persons bed.</string>
+            <string name="yo_nunca_afirmacion_24">I have never done it with more people around.</string>
+            <string name="yo_nunca_afirmacion_25">I have never done a threesome.</string>
+            <string name="yo_nunca_afirmacion_26">I have never had any sexual fantasies about having a threesome with my boyfriend/girlfriend and someone else.</string>
+            <string name="yo_nunca_afirmacion_27">I have never masturbated to an inanimate object.</string>
+            <string name="yo_nunca_afirmacion_28">I have never hurt myself by masturbating.</string>
+            <string name="yo_nunca_afirmacion_29">I have never been disappointed to make out with someone I really wanted to.</string>
+
+            <string name="yo_nunca_afirmacion_30">I have never practiced sadomasochism or used related objects.</string>
+            <string name="yo_nunca_afirmacion_31">I have never tried anal but it did not work out.</string>
+            <string name="yo_nunca_afirmacion_32">I have never practiced anal for pleasure.</string>
+            <string name="yo_nunca_afirmacion_33">I have never hooked up with someone who was at least 5 years older than me.</string>
+            <string name="yo_nunca_afirmacion_34">I have never done anything sexual at school/college.</string>
+            <string name="yo_nunca_afirmacion_35">I have never had a hickey in an uncommon place.</string>
+            <string name="yo_nunca_afirmacion_36">I have never tried to get someone drunk to make out with that person.</string>
+            <string name="yo_nunca_afirmacion_37">I have never seen porn with anyone else.</string>
+            <string name="yo_nunca_afirmacion_38">I have never recorded myself with anyone in bed.</string>
+            <string name="yo_nunca_afirmacion_39">I have never masturbated to a movie that was not pornographic.</string>
+
+            <string name="yo_nunca_afirmacion_40">I have never had a trigger.</string>
+            <string name="yo_nunca_afirmacion_41">I have never done it with my period.</string>
+            <string name="yo_nunca_afirmacion_42">I have never been pissed on.</string>
+            <string name="yo_nunca_afirmacion_43">I have never done it in disguise to satisfy some morbidity.</string>
+            <string name="yo_nunca_afirmacion_44">I have never hooked up with the guy I was trying to hook up with a friend.</string>
+            <string name="yo_nunca_afirmacion_45">I never swalow it.</string>
+            <string name="yo_nunca_afirmacion_46">I have never been turned on at a very inappropriate time.</string>
+            <string name="yo_nunca_afirmacion_47">My condom never broke.</string>
+            <string name="yo_nunca_afirmacion_48"> I have never gone a year without sex after doing it previously.</string>
+            <string name="yo_nunca_afirmacion_49">I have never wiped my ass so hard, the paper breaks and my index finger ends up touching my anus.</string>
+
+            <string name="yo_nunca_afirmacion_50">I have never involved food in sex.</string>
+            <string name="yo_nunca_afirmacion_51">I have never had a sexual fantasy about a teacher.</string>
+            <string name="yo_nunca_afirmacion_52">I have never done it at a party.</string>
+            <string name="yo_nunca_afirmacion_53">I have never taken the morning after pill.</string>
+            <string name="yo_nunca_afirmacion_54">I have never had phone sex.</string>
+            <string name="yo_nunca_afirmacion_55">I have never had to run for my clothes because the doorbell had just been rung.</string>
+            <string name="yo_nunca_afirmacion_56">I have never stopped making out with someone and asking them what their name was.</string>
+            <string name="yo_nunca_afirmacion_57">I have never hooked up with a friends ex.</string>
+            <string name="yo_nunca_afirmacion_58">I have never lied about my sexual experiences to my new partner.</string>
+            <string name="yo_nunca_afirmacion_59">I have never had to be taught how to unbuckle a bra.</string>
+
+            <string name="yo_nunca_afirmacion_60">I have never caught my parents doing it.</string>
+            <string name="yo_nunca_afirmacion_61">I have never taken naked pictures of myself.</string>
+            <string name="yo_nunca_afirmacion_62">I have never called someone by a wrong name while we were doing it.</string>
+            <string name="yo_nunca_afirmacion_63">I have never licked an ass.</string>
+            <string name="yo_nunca_afirmacion_64">I have never done it in the shower.</string>
+            <string name="yo_nunca_afirmacion_65">I have never used the kamasutra to learn or involve new positions in bed.</string>
+            <string name="yo_nunca_afirmacion_66">I have never done it with someone who was a virgin.</string>
+            <string name="yo_nunca_afirmacion_67">I have never lied about being a virgin.</string>
+            <string name="yo_nunca_afirmacion_68">I have never measured my penis.</string>
+            <string name="yo_nunca_afirmacion_69">I have never erased racy conversations so my partner would not catch me.</string>
+
+            <string name="yo_nunca_afirmacion_70">I have never made out with someone I did not find attractive just because I was desperate.</string>
+            <string name="yo_nunca_afirmacion_71">I never thought I had get a sexually transmitted disease.</string>
+            <string name="yo_nunca_afirmacion_72">I have never faked/exaggerated an orgasm.</string>
+            <string name="yo_nunca_afirmacion_73">I have never had a fuck-friend.</string>
+            <string name="yo_nunca_afirmacion_74">I have never left home without underwear.</string>
+            <string name="yo_nunca_afirmacion_75">I have never made out with a foreigner.</string>
+            <string name="yo_nunca_afirmacion_76">I have never been jealous of seeing a friends genitals.</string>
+            <string name="yo_nunca_afirmacion_77">I have never masturbated at a friends house.</string>
+            <string name="yo_nunca_afirmacion_78">I have never had a blow job with a condom.</string>
+            <string name="yo_nunca_afirmacion_79">I have never used ice in bed.</string>
+
+            <string name="yo_nunca_afirmacion_80">I have never asked to satisfy a fetish of mine but without success.</string>
+            <string name="yo_nunca_afirmacion_81">I have never tried to hide an erection in public without success.</string>
+            <string name="yo_nunca_afirmacion_82">I have never had violence in my bed.</string>
+            <string name="yo_nunca_afirmacion_83">I have never farted on the spot.</string>
+            <string name="yo_nunca_afirmacion_84">I have never torn my partners clothes off.</string>
+            <string name="yo_nunca_afirmacion_85">I have never tried/wanted a couple to break up.</string>
+            <string name="yo_nunca_afirmacion_86">I have never made/been made a Cuban.</string>
+            <string name="yo_nunca_afirmacion_87">I have never masturbated while watching hentai.</string>
+            <string name="yo_nunca_afirmacion_88">I have never agreed to do anything for money.</string>
+            <string name="yo_nunca_afirmacion_89">I have never had more than 3 fingers in/out.</string>
+
+            <string name="yo_nunca_afirmacion_90">I have never done it in a car and I blow the horn.</string>
+            <string name="yo_nunca_afirmacion_91">I have never had to be shown a picture of who I have hooked up with because I dont remember.</string>
+            <string name="yo_nunca_afirmacion_92">I never waxed my genitals thinking I was going to prick and end up eating my own snot.</string>
+            <string name="yo_nunca_afirmacion_93">I never wanted to join two friends who were doing it.</string>
+            <string name="yo_nunca_afirmacion_94">I have never made a list of all the guys I have hooked up with.</string>
+            <string name="yo_nunca_afirmacion_95">I have never had to use more than 2 condoms in one round.</string>
+            <string name="yo_nunca_afirmacion_96">I have never done it in every room of my/your house.</string>
+            <string name="yo_nunca_afirmacion_97">I have never asked for Chatroulette/Omegle to show me their penis/boobs.</string>
+            <string name="yo_nunca_afirmacion_98">I have never had to use online pages or applications to get laid.</string>
+            <string name="yo_nunca_afirmacion_99">I have never made a list of all the guys I have hooked up with.</string>
+
+            <string name="yo_nunca_afirmacion_100">I never realized they were looking at me while I was doing it.</string>
+            <string name="yo_nunca_afirmacion_101">I have never hooked up with anyone here before.</string>
+            <string name="yo_nunca_afirmacion_102">I have never made out with anyone I did not like.</string>
+            <string name="yo_nunca_afirmacion_103">I have never run out on top of my body.</string>
+            <string name="yo_nunca_afirmacion_104">I have never been beaten up for throwing the cane.</string>
+            <string name="yo_nunca_afirmacion_105">I have never regretted losing my virginity to anyone.</string>
+            <string name="yo_nunca_afirmacion_106">I have never hooked up with someone who just threw up.</string>
+            <string name="yo_nunca_afirmacion_107">I have never been put on by someone without knowing at the time that that person was at least 4 years younger than me.</string>
+            <string name="yo_nunca_afirmacion_108">I have never dated anyone I knew I would not be with for long.</string>
+            <string name="yo_nunca_afirmacion_109">I have never done a 69.</string>
+
+            <string name="yo_nunca_afirmacion_110">I have never done it with my parents around.</string>
+            <string name="yo_nunca_afirmacion_111">I have never picked up someone to make them jealous.</string>
+            <string name="yo_nunca_afirmacion_112">I have never slipped while doing it in the shower.</string>
+            <string name="yo_nunca_afirmacion_113">I have never told anyone I love you just to fuck.</string>
+            <string name="yo_nunca_afirmacion_114">I have never made my fingers bleed.</string>
+            <string name="yo_nunca_afirmacion_115">I have never had a bad fuck.</string>
+            <string name="yo_nunca_afirmacion_116">I have never masturbated at least five times in one day.</string>
+            <string name="yo_nunca_afirmacion_117">I have never had a wet dream.</string>
+            <string name="yo_nunca_afirmacion_118">I never thought oral sex was disgusting.</string>
+            <string name="yo_nunca_afirmacion_119">I have never thought oral sex is better than penetration.</string>
+
+            <string name="yo_nunca_afirmacion_120">I never thought about anyone else while I was doing it with someone.</string>
+            <string name="yo_nunca_afirmacion_121">I have never done it with someone who in my opinion had a small penis.</string>
+            <string name="yo_nunca_afirmacion_122">I have never used flavored condoms.</string>
+            <string name="yo_nunca_afirmacion_123">I have never run out of them without a condom.</string>
+            <string name="yo_nunca_afirmacion_124">I have never kept pictures of my ex naked after I broke up with him/her.</string>
+            <string name="yo_nunca_afirmacion_125">I have never used/have never used reverse gear with me as a method of contraception.</string>
+            <string name="yo_nunca_afirmacion_126">I have never been an accessory to horns.</string>
+            <string name="yo_nunca_afirmacion_127">I have never been thrown by a relative of my boyfriend/girlfriend.</string>
+            <string name="yo_nunca_afirmacion_128">I have never sent someone to the friendzone after hooking up with that person.</string>
+            <string name="yo_nunca_afirmacion_129">I have never been happy about anything bad that happened to my ex.</string>
+
+            <string name="yo_nunca_afirmacion_130">I have never done it more than five times in one day.</string>
+            <string name="yo_nunca_afirmacion_131">I have never hooked up with anyone from my current class.</string>
+            <string name="yo_nunca_afirmacion_132">I have never had a real cobra.</string>
+            <string name="yo_nunca_afirmacion_133">I have never regretted a tattoo.</string>
+            <string name="yo_nunca_afirmacion_134">I have never been more morbid about doing it outside the house than inside.</string>
+            <string name="yo_nunca_afirmacion_135">I have never fallen asleep during sex.</string>
+            <string name="yo_nunca_afirmacion_136">I have never been caught by someone while I had a boyfriend.</string>
+            <string name="yo_nunca_afirmacion_137">I have never broken up with a boyfriend/girlfriend because sex did not satisfy me.</string>
+            <string name="yo_nunca_afirmacion_138">I have never broken the bed in doing so.</string>
+            <string name="yo_nunca_afirmacion_139">I have never been called on by the neighbors for making too much noise during sex.</string>
+
+            <string name="yo_nunca_afirmacion_140">They have never lasted less than 10 minutes in bed with me.</string>
+            <string name="yo_nunca_afirmacion_141">I have never done it three or more times in a row.</string>
+            <string name="yo_nunca_afirmacion_142">I have never been woken up by a blow job.</string>
+            <string name="yo_nunca_afirmacion_143">I have never masturbated while making a video call with someone.</string>
+            <string name="yo_nunca_afirmacion_144">I have never created a fake account on any social network to see what an ex was doing without him or her noticing.</string>
+            <string name="yo_nunca_afirmacion_145">I have never managed to hook up or date anyone I was previously in the friendzone with.</string>
+            <string name="yo_nunca_afirmacion_146">I have never had a hickey from my parents.</string>
+            <string name="yo_nunca_afirmacion_147">I would never have a relationship with anyone present if it came to that.</string>
+            <string name="yo_nunca_afirmacion_148">I have never spent less than 10 minutes in bed.</string>
+            <string name="yo_nunca_afirmacion_149">I have never had my hair caught in the middle of sex.</string>
+
+            <string name="yo_nunca_afirmacion_150">I have never seen any step-sister/stepmother porn.</string>
+            <string name="yo_nunca_afirmacion_151">I have never had my throat deepened.</string>
+            <string name="yo_nunca_afirmacion_152">I have never felt bad about myself after touching myself.</string>
+            <string name="yo_nunca_afirmacion_153">I have never gone along with a teacher who was screwing me.</string>
+            <string name="yo_nunca_afirmacion_154">I have never asked to make a porn video but without success.</string>
+            <string name="yo_nunca_afirmacion_155">I have never pretended to be of another nationality in order to pick up girls.</string>
+            <string name="yo_nunca_afirmacion_156">I have never had interracial sex.</string>
+            <string name="yo_nunca_afirmacion_157">I have never been frustrated because I was not satisfied with sex with someone I loved.</string>
+            <string name="yo_nunca_afirmacion_158">I have never masturbated in a group.</string>
+            <string name="yo_nunca_afirmacion_159">I have never been totally or partially obsessed with someone after hooking up with that person once.</string>
+
+            <string name="yo_nunca_afirmacion_160">I have never licked a nipple.</string>
+            <string name="yo_nunca_afirmacion_161">I have never had my nipples licked.</string>
+            <string name="yo_nunca_afirmacion_162">I have never been in the friendzone with anyone present.</string>
+            <string name="yo_nunca_afirmacion_163">I have never broken up with someone to date someone else.</string>
+            <string name="yo_nunca_afirmacion_164">I have never been cut off to date anyone else.</string>
+            <string name="yo_nunca_afirmacion_165">I have never done it being sick.</string>
+            <string name="yo_nunca_afirmacion_166">I have never wanted to fuck my best friend.</string>
+            <string name="yo_nunca_afirmacion_167">I have never preferred asses to tits.</string>
+            <string name="yo_nunca_afirmacion_168">I have never had a run-in with my ex.</string>
+            <string name="yo_nunca_afirmacion_169">I never thought I could marry a former or current partner.</string>
+
+            <string name="yo_nunca_afirmacion_170">I have never dreamed that I had make out with someone and I have been disappointed when I woke up.</string>
+            <string name="yo_nunca_afirmacion_171">I have never hooked up with someone who had really bad breath.</string>
+            <string name="yo_nunca_afirmacion_172">I have never been hurt by oral sex.</string>
+            <string name="yo_nunca_afirmacion_173">I have never been paranoid about being pregnant because my period was late.</string>
+            <string name="yo_nunca_afirmacion_174">I have never had a blow job driving.</string>
+            <string name="yo_nunca_afirmacion_175">I have never gone along with someone who is been screwing me just to get alcohol.</string>
+            <string name="yo_nunca_afirmacion_176">I have never seen a sex toy and been intrigued.</string>
+            <string name="yo_nunca_afirmacion_177">I have never had a sex dream about anyone in the class.</string>
+            <string name="yo_nunca_afirmacion_178">I have never been intrigued by performing oral sex on someone of my own sex.</string>
+            <string name="yo_nunca_afirmacion_179">I have never thought that same-sex sex is or would be better than same-sex sex.</string>
+
+            <string name="yo_nunca_afirmacion_180">I have never been attracted to a family member.</string>
+            <string name="yo_nunca_afirmacion_181">I have never sucked a penis/pussy that tasted really bad.</string>
+            <string name="yo_nunca_afirmacion_182">I have never been interrupted by my pet while I was doing it.</string>
+            <string name="yo_nunca_afirmacion_183">I have never been in the wrong hole.</string>
+            <string name="yo_nunca_afirmacion_184">I have never masturbated right before I did it to last longer.</string>
+            <string name="yo_nunca_afirmacion_185">I have never used a porn video as a role model.</string>
+            <string name="yo_nunca_afirmacion_186">I have never dressed in a certain way to attract someones attention and I am over it.</string>
+            <string name="yo_nunca_afirmacion_187">I have never rented a hotel or motel room just for fucking.</string>
+            <string name="yo_nunca_afirmacion_188">I would never have a threesome with people here.</string>
+            <string name="yo_nunca_afirmacion_189">I have never played any games with the punishment of stripping.</string>
+
+            <string name="yo_nunca_afirmacion_190">I have never been involved with anyone who kissed really badly.</string>
+            <string name="yo_nunca_afirmacion_191">I never used my cell phone while I was doing it.</string>
+            <string name="yo_nunca_afirmacion_192">I have never done it by making zero eye contact with the other person.</string>
+            <string name="yo_nunca_afirmacion_193">I have never been thrown off by seeing how much pubic hair the person I was going to do it with had.</string>
+            <string name="yo_nunca_afirmacion_194">I never laughed while I was doing it.</string>
+            <string name="yo_nunca_afirmacion_195">I have never thrown the rod as a joke and I end up coming out better than I expected.</string>
+            <string name="yo_nunca_afirmacion_196">I have never made out with my exs best friend.</string>
+            <string name="yo_nunca_afirmacion_197">I have never taken sexy naked pictures of myself to send to anyone.</string>
+            <string name="yo_nunca_afirmacion_198">I have never put a condom in my mouth.</string>
+            <string name="yo_nunca_afirmacion_199">I have never lied in this I Never.</string>
+
+            <string name="yo_nunca_afirmacion_200">I have never fucked/fixed anyone I have not seen in my life.</string>
+            <string name="yo_nunca_afirmacion_201">I have never imagined what the tits/penis of someone present would look like.</string>
+            <string name="yo_nunca_afirmacion_202">I would never have fucked someone from class at the beginning of the year but now I am disgusted.</string>
+            <string name="yo_nunca_afirmacion_203">I have never been caught by someone present without telling them.</string>
+
+
+
+
+
+    //Autopista
+            //buttons
+            <string name="autopista_boton_mayor">BIGGER</string>
+            <string name="autopista_boton_menor">SMALLER</string>
+            <string name="autopista_boton_como_jugar">RULES</string>
+            <string name="autopista_textView_principal">¿BIGGER OR SMALLER?</string>
+            <string name="autopista_textView_peaje">TOLL</string>
+            <string name="autopista_mazo">DECK</string>
+            <string name="autopista_pagado">PAID</string>
+            <string name="autopista_toast_bebes">DRINK</string>
+            <string name="autopista_toast_peaje">TOLL</string>
+
+            //End game Text
+            <string name="autopista_fin_de_juego_texto">Congratulations, you have completed the highway. You want to play again?</string>
+            <string name="autopista_fin_de_juego_boton_si">Yes</string>
+            <string name="autopista_fin_de_juego_boton_no">No</string>
+            <string name="autopista_fin_de_juego_titulo">THE END</string>
+            <string name="autopista_fin_de_juego_no_terminado_texto">Sorry, you have not completed the highway. You want to try again?</string>
+
+
+
+            //menu RULES
+            <string name="autopista_como_jugar_texto">Try to complete the highway. You will have to guess if the next
+                card to come out of the deck is bigger or smaller than the card marked with the arrow to advance.
+                But beware, if you make a mistake you will have to take a drink and back up a position
+                (if the card is the same, it counts as a failure).
+                The cards that are turned over are tolls, every time you pass over them you must drink,
+                it does not matter if you have succeeded or failed, if you pass through a toll you have to pay it.
+                You win if you complete the highway before the cards in the deck run out! Good luck!</string>
+            <string name="autopista_como_jugar_boton_ok"> OK</string>
+            <string name="autopista_como_jugar_titulo">RULES</string>
+
+    //El JUEGO
+
+            //texto botones
+            <string name="el_juego_boton_siguiente">NEXT</string>
+            <string name="el_juego_boton_sugerencia">SUGGESTIONS</string>
+            <string name="el_juego_boton_como_jugar">RULES</string>
+            <string name="el_juego_texto_text_view">THE GAME</string>
+
+            //texto fin de juego + juego no terminado
+            <string name="el_juego_fin_de_juego_texto">It is over. You want to play again?</string>
+            <string name="el_juego_fin_de_juego_boton_si">Yes</string>
+            <string name="el_juego_fin_de_juego_boton_no">No</string>
+            <string name="el_juego_fin_de_juego_titulo">THE END</string>
+
+            //text how to play
+            <string name="el_juego_como_jugar_texto">Sit in a circle, take turns clicking next and completing
+                the test/challenge/question that appears. Click next to change the phrase.
+                Click on the suggestion button to send us phrases/challenges/tests you want us to include in the game.</string>
+            <string name="el_juego_como_jugar_boton_ok"> OK</string>
+            <string name="el_juego_como_jugar_titulo">RULES</string>
+            //sentences
+            <string name="el_juego_frase_0">Say the first and last name of all the players. Drink for every mistake.</string>
+            <string name="el_juego_frase_1">The first player who receives a notification must drink.</string>
+            <string name="el_juego_frase_2">Choose a player, he will not be able to talk during a round.</string>
+            <string name="el_juego_frase_3">The rest of the players drink 1 sip for every 2 you drink.</string>
+            <string name="el_juego_frase_4">Use your hands to measure the waist of the player on your right. Drink if it comes out even if it will not drink.</string>
+            <string name="el_juego_frase_5">Get all the IDs the ugliest one out gives out 4 sips.</string>
+            <string name="el_juego_frase_6">Drink the last one that shouts "LIO PINGO".</string>
+            <string name="el_juego_frase_7">Players who do not wear thongs drink.</string>
+            <string name="el_juego_frase_8">Whoever shows a condom gives out 3 drinks.</string>
+            <string name="el_juego_frase_9">Point to a player, the last one to throw something at him gets two drinks.</string>
+
+
+            <string name="el_juego_frase_10">During a round before drinking you must say "PINGO INGO" you drink double every time you fail.</string>
+            <string name="el_juego_frase_11">Players who have a partner drink 1 sip and those who do not, drink 2.</string>
+            <string name="el_juego_frase_12">Chain of gestures, make a gesture, the next player must repeat it and add a different one, and so on until one player fails. The player who misses must drink 3 sips.</string>
+            <string name="el_juego_frase_13">Let someone kiss you with lipstick on your forehead. Give out 4 drinks if you let yourself , drink 2 if you do not.</string>
+            <string name="el_juego_frase_14">Pick up a phone and together with a person of the opposite sex you should go around the room holding it with your ass.</string>
+            <string name="el_juego_frase_15">You do not drink during a round.</string>
+            <string name="el_juego_frase_16">The player who says a swear word must drink 1 sip. This rule lasts 1 round.</string>
+            <string name="el_juego_frase_17">Let the person on your left choose a contact from your phone randomly, you should write to that contact "we need to talk".</string>
+            <string name="el_juego_frase_18">With your eyes closed you should let the person on your right pass their hand over your body without touching it, when you say "pingo" they should bite you in that area.</string>
+            <string name="el_juego_frase_19">Flip a coin, if it comes out heads you take off a garment if it comes out tails you take it off whoever you want.</string>
+
+            <string name="el_juego_frase_20">Choose a player of the opposite sex, you must perform the erotic posture that you like best.</string>
+            <string name="el_juego_frase_21">Tell a story (real or invented you choose). The rest of the players will have to say if it is real or invented, those who fail will drink 2 drinks.</string>
+            <string name="el_juego_frase_22">During a round you must point out the person you want to talk to, you drink a sip every time you forget.</string>
+            <string name="el_juego_frase_23">I have never bragged about anything I have not done.</string>
+            <string name="el_juego_frase_24">Everybody drinks three sips while you clap your hands.</string>
+            <string name="el_juego_frase_25">You drink 3 sips while the rest of the players applaud you.</string>
+            <string name="el_juego_frase_26">Players over a size 90 drink, those over 120 drink double and men applaud.</string>
+            <string name="el_juego_frase_27">Drink the players who wear glasses/lenses.</string>
+            <string name="el_juego_frase_28">Players wearing thongs drink.</string>
+            <string name="el_juego_frase_29">Smokers have one drink and non-smokers have two.</string>
+
+            <string name="el_juego_frase_30">The men have two sips while the women compliment them.</string>
+            <string name="el_juego_frase_31">Women drink two sips while men compliment them.</string>
+            <string name="el_juego_frase_32">Stand up and blindfold yourself. You will have to guess, by touching theire ass, who each of the players is. Drink a sip every time you miss.</string>
+            <string name="el_juego_frase_33">Drink as many sips as there are tits among the players.</string>
+            <string name="el_juego_frase_34">The player who wears a shirt or polo shirt drinks 2 sips.</string>
+            <string name="el_juego_frase_35">All players must drink until they finish their glasses and the youngest fills them.</string>
+            <string name="el_juego_frase_36">Set a rule that must be observed during a round.</string>
+            <string name="el_juego_frase_37">Tell a joke. If someone laughs, they drink one sip, otherwise they drink two. </string>
+            <string name="el_juego_frase_38">Publish "pingo app" on Instagram. Give out 3 drinks if you do, drink 5 if you do not.</string>
+            <string name="el_juego_frase_39">During a round you can not say the verb "to drink" or its conjugations. Drink a sip every time you miss.</string>
+
+            <string name="el_juego_frase_40">The last player to hit the floor screams "bomb" and drinks three shots.</string>
+            <string name="el_juego_frase_41">I have never lied in "i have never" game.</string>
+            <string name="el_juego_frase_42">The oldest player drinks twice as many drinks during a round.</string>
+            <string name="el_juego_frase_43">Show the underpants, drink the ones that do not wear Calvin Klein.</string>
+            <string name="el_juego_frase_44">Blondes have 2 sips.</string>
+            <string name="el_juego_frase_45">Drink the first player who receives a WhatsApp.</string>
+            <string name="el_juego_frase_46">Hide a coin on your body and choose a person of the opposite sex to find it. You have 30 seconds if you do not find it, drink 3 shots.</string>
+            <string name="el_juego_frase_47">Confess to who in this room you would have sex with.</string>
+            <string name="el_juego_frase_48">Choose 3 people present of the opposite sex and say who you would marry, who you would sleep with and who you would kill.</string>
+            <string name="el_juego_frase_49">The brunettes drink two sips.</string>
+
+            <string name="el_juego_frase_50">I have never had sex in my parents room.</string>
+            <string name="el_juego_frase_51">Speak with a Mexican accent during a round.</string>
+            <string name="el_juego_frase_52">Winking power, during one round the person you wink at must drink a sip.</string>
+            <string name="el_juego_frase_53">Swap places with a player, give him a kiss and have a sip.</string>
+            <string name="el_juego_frase_54">During a round, choose a player and he must drink all the drinks that are sent to you.</string>
+            <string name="el_juego_frase_55">During a round you must say "PINGO" every time you drink, take an extra sip every time you forget.</string>
+            <string name="el_juego_frase_56">During a round, choose a player who will have to drink with you the drinks you are sent.</string>
+            <string name="el_juego_frase_57">All the players give you a kiss on the cheek. Drink 3 drinks for those who refuse.</string>
+            <string name="el_juego_frase_58">During a round, you flip a coin every time it is your turn to drink. Heads you drink double, tails you get out.</string>
+            <string name="el_juego_frase_59">Players who have a pet drink 2 sips.</string>
+
+            <string name="el_juego_frase_60">During a round you must drink with your left hand. You drink a sip every time you forget.</string>
+            <string name="el_juego_frase_61">During a round you have the power of questions, the player who answers you a question must drink a drink.</string>
+            <string name="el_juego_frase_62">Send "X" sips to a player and you must drink twice as much.</string>
+            <string name="el_juego_frase_63">During a round, it is forbidden to say first names. 1 drink every time you forget.</string>
+            <string name="el_juego_frase_64">You have a sip, the one on your left 2 and the one on his left 3.</string>
+            <string name="el_juego_frase_65">Challenge any player of the opposite sex to rock, paper, or scissors. 3 drinks in play.</string>
+
+        //Sugerencias
+
+                //mensaje enviado al usuario
+                <string name="sugerencia_mensaje_enviado_parte_1">Your mail: "</string>
+                <string name="sugerencia_mensaje_enviado_parte_2">". It has been received correctly and our support team will attend to your message as soon as possible. Thank you from the Pingo Aplicacion team. </string>
+
+                //toast para gestionar el envio de mensajes
+                <string name="sugerencia_toast_mensaje_enviado">Message sent. </string>
+                <string name="sugerencia_toast_mensaje_error">Error, try again or email directly to pingo.aplicacion@gmail.com. </string>
+
+                //textos .xml
+                //texto descripcion layout superior
+                <string name="sugerencia_texto_descripcion_layoutSuperior">Email, enter your email address. In the subject line, indicate the reason for your email: suggestion, bug, tip, new game. . . , for example, Subject: "I HAVE NEVER. Suggestion", finally, fill in the message section. Thank you very much for your help, on behalf of the Pingo application team.</string>
+                //textviews y editTExt
+                <string name="sugerencia_edit_text_mail">Enter your email address. </string>
+                <string name="sugerencia_edit_text_asunto">Game Suggestion </string>
+                <string name="sugerencia_edit_text_mensaje">Write your suggestion</string>
+                <string name="sugerencia_text_view_mail">Email</string>
+                <string name="sugerencia_text_view_asunto">Subject</string>
+                <string name="sugerencia_text_view_mensaje">Message</string>
+                //boton
+                <string name="sugerencia_boton_enviar">Send</string>
+
+        //AYUDA
+                <string name="ayuda_texto_principal">PINGO is an application where you can find fun games to play
+                        with your friends. We want users to enjoy the application and its content and to be an
+                        active part of the application, so you can contact us at any time and for anything, solve
+                        a doubt, fix a bug, give us advice, suggest new games to add to the application. . .
+                        We also want to remind you that the consumption of alcohol is HARMLESS to health, and
+                        from the team of Pingo Aplicación we advise against its consumption and if you consume
+                        it while using our application it is under your responsibility.</string>
+                <string name="ayuda_texto_boton">CONTACT US</string>
+</resources>

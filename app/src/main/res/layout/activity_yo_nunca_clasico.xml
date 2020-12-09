@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityYoNuncaClasico"
+    android:background="@drawable/imagen_main">
+
+        <LinearLayout
+            android:id="@+id/layoutSuperiorYoNuncaClasico"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/layoutPreguntaYoNuncaClasico"
+            app:layout_constraintVertical_weight="1">   </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/layoutPreguntaYoNuncaClasico"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+
+            app:layout_constraintTop_toBottomOf="@+id/layoutSuperiorYoNuncaClasico"
+            app:layout_constraintBottom_toTopOf="@+id/layoutBotonesYoNuncaClasico"
+            app:layout_constraintVertical_weight="3"
+            >
+
+
+
+            <TextView
+                android:id="@+id/textViewYoNuncaClasico"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:background="#FAFAFA"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="20dp"
+                android:text="@string/yo_nunca_titulo"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutBotonesYoNuncaClasico"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/layoutPreguntaYoNuncaClasico"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_weight="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.75">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"/>
+
+                <Button
+                    android:id="@+id/buttonSiguietneYoNuncaClasico"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/yo_nunca_boton_siguiente"
+                    android:background="#f5f5f5"
+                    android:textColor="#000000"
+                    android:autoSizeTextType="none"
+                    android:layout_weight="1"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/buttonComoJugarYoNuncaClasico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yo_nunca_boton_como_jugar"
+                    android:background="#f5f5f5"
+                    android:textColor="#000000"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/buttonSugerirYoNuncaClasico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yo_nunca_boton_sugerencia"
+                    android:background="#f5f5f5"
+                    android:textColor="#000000"
+                    />
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
