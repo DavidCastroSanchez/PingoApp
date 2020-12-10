@@ -6,8 +6,11 @@ Mi nombre es David Castro Sanchez y soy alumno de 4 año del grado en ingenierí
 Cuando vi la oportunidad de participar en el concurso no lo dude, y tras pensarlo un tiempo se me ocurrió la idea de desarrollar una aplicación con juegos pre-fiesta o para ambientes informales para jóvenes (y no tan jóvenes). El objetivo con esta aplicación era crear un MVP (producto mínimo viable por sus siglas en ingles) para disponer de una beta de la aplicación para su testeo. La aplicación está compuesta por 4 juegos (estos son los iniciales, pero está planeado desarrollar al menos dos más). 
 
 Pingo- Un juego de cartas en el que se van sacando cartas de un mazo  las cuales tienen una prueba o acción que realizar. 
+
 El Juego- Un juego para jugar con amigos con diferentes pruebas, preguntas, retos y demás actividades.
+
 Autopista- Un juego solitario en el que cada error se paga, el jugador deberá adivinar si la siguiente carta que salga del mazo es de mayor o menor valor que la señalada por la flecha intentando completar la autopista antes de que se acaben las cartas. 
+
 Yo Nunca-Un juego mítico, pero con dos versiones, una versión clásica con preguntas divertidas, graciosas o comprometidas y una versión erótica con preguntas más calientes y personales.
 
 Toda la aplicación esta pensada para adaptarse a las pantallas de los dispositivos que hagan uso de ella y principalmente pensada para dispositivos móviles (en los cuales se ha testado para diferentes tamaños y modelos con éxito en todos ellos).
